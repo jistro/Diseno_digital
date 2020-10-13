@@ -1,0 +1,73 @@
+Release 8.1i - Fit P.20131013
+Copyright(c) 1995-2003 Xilinx Inc. All rights reserved
+
+10-12-2020 11:14PM
+
+NOTE: This file is designed to be imported into a spreadsheet program
+such as Microsoft Excel for viewing, printing and sorting. The comma ','
+character is used as the data field separator.
+This file is also designed to support parsing.
+
+Input file:  codigo.ngd
+output file: codigo_pad.csv
+Part type:   xc2c64a
+Speed grade: -7
+Package:     pc44
+
+Pinout by Pin Number:
+
+-----,-----,-----,-----,-----,-----,-----,-----,-----,-----,
+Pin Number,Signal Name,Pin Usage,Pin Name,Direction,IO Standard,IO Bank Number,{blank},Slew Rate,Termination,{blank},Voltage,Constraint,
+P1,X,I,I/O,INPUT,LVCMOS18,1,,FAST,,,,
+P2,Y,I,I/O,INPUT,LVCMOS18,1,,FAST,,,,
+P3,Z,I,I/O,INPUT,LVCMOS18,1,,FAST,,,,
+P4,KPR,,I/O,,,1,,,,,,,
+P5,KPR,,I/O/GCK0,,,1,,,,,,,
+P6,KPR,,I/O/GCK1,,,1,,,,,,,
+P7,KPR,,I/O/GCK2,,,1,,,,,,,
+P8,KPR,,I/O,,,1,,,,,,,
+P9,KPR,,I/O,,,1,,,,,,,
+P10,GND,,GND,,,,,,,,,,
+P11,KPR,,I/O,,,1,,,,,,,
+P12,KPR,,I/O,,,1,,,,,,,
+P13,,VCCIO-1.8,VCCIO,,,1,,,,,,,
+P14,KPR,,I/O,,,1,,,,,,,
+P15,TDI,,TDI,,,,,,,,,,
+P16,TMS,,TMS,,,,,,,,,,
+P17,TCK,,TCK,,,,,,,,,,
+P18,KPR,,I/O,,,1,,,,,,,
+P19,KPR,,I/O,,,1,,,,,,,
+P20,KPR,,I/O,,,1,,,,,,,
+P21,,VCC,VCC,,,,,,,,,,
+P22,KPR,,I/O,,,1,,,,,,,
+P23,GND,,GND,,,,,,,,,,
+P24,KPR,,I/O,,,2,,,,,,,
+P25,KPR,,I/O,,,2,,,,,,,
+P26,KPR,,I/O,,,2,,,,,,,
+P27,KPR,,I/O,,,2,,,,,,,
+P28,KPR,,I/O,,,2,,,,,,,
+P29,KPR,,I/O,,,2,,,,,,,
+P30,TDO,,TDO,,,,,,,,,,
+P31,GND,,GND,,,,,,,,,,
+P32,,VCCIO-1.8,VCCIO,,,2,,,,,,,
+P33,KPR,,I/O,,,2,,,,,,,
+P34,KPR,,I/O,,,2,,,,,,,
+P35,KPR,,I/O,,,2,,,,,,,
+P36,D7,O,I/O/GSR,OUTPUT,LVCMOS18,2,,FAST,,,,
+P37,D6,O,I/O/GTS2,OUTPUT,LVCMOS18,2,,FAST,,,,
+P38,D5,O,I/O/GTS3,OUTPUT,LVCMOS18,2,,FAST,,,,
+P39,D4,O,I/O/GTS0,OUTPUT,LVCMOS18,2,,FAST,,,,
+P40,D3,O,I/O/GTS1,OUTPUT,LVCMOS18,2,,FAST,,,,
+P41,,VCCAUX,VAUX,,,,,,,,,,
+P42,D2,O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
+P43,D1,O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
+P44,D0,O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
+
+To preserve the pinout above for future design iterations in
+Project Navigator simply execute the (Lock Pins) process
+located under the (Implement Design) process in a toolbox named
+(Optional Implementation Tools) or invoke PIN2UCF from the
+command line. The location constraints will be written into your
+specified UCF file
+
+

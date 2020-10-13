@@ -1,0 +1,350 @@
+<html><body>
+<pre>
+ 
+cpldfit:  version P.20131013                        Xilinx Inc.
+                                  Fitter Report
+Design Name: codigo                              Date: 10-12-2020, 11:14PM
+Device Used: XC2C64A-7-PC44
+Fitting Status: Successful
+
+*************************  Mapped Resource Summary  **************************
+
+Macrocells     Product Terms    Function Block   Registers      Pins           
+Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
+8  /64  ( 12%) 8   /224  (  4%) 3   /160  (  2%) 0  /64  (  0%) 11 /33  ( 33%)
+
+** Function Block Resources **
+
+Function Mcells   FB Inps  Pterms   IO       CTC      CTR      CTS      CTE     
+Block    Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot
+FB1       8/16      3/40     8/56     8/ 8*   0/1      0/1      0/1      0/1
+FB2       0/16      0/40     0/56     0/ 9    0/1      0/1      0/1      0/1
+FB3       0/16      0/40     0/56     0/ 9    0/1      0/1      0/1      0/1
+FB4       0/16      0/40     0/56     0/ 7    0/1      0/1      0/1      0/1
+         -----    -------  -------   -----    ---      ---      ---      ---
+Total     8/64      3/160    8/224    8/33    0/4      0/4      0/4      0/4 
+
+CTC - Control Term Clock
+CTR - Control Term Reset
+CTS - Control Term Set
+CTE - Control Term Output Enable
+
+* - Resource is exhausted
+
+** Global Control Resources **
+
+GCK         GSR         GTS         DGE         
+Used/Tot    Used/Tot    Used/Tot    Used/Tot    
+0/3         0/1         0/4         0/0
+
+
+** Pin Resources **
+
+Signal Type    Required     Mapped  |  Pin Type            Used    Total 
+------------------------------------|------------------------------------
+Input         :    3           3    |  I/O              :     6     25
+Output        :    8           8    |  GCK/IO           :     0      3
+Bidirectional :    0           0    |  GTS/IO           :     4      4
+GCK           :    0           0    |  GSR/IO           :     1      1
+GTS           :    0           0    |  
+GSR           :    0           0    |  
+                 ----        ----
+        Total     11          11
+
+End of Mapped Resource Summary
+**************************  Errors and Warnings  ***************************
+
+WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
+   use the default filename of 'codigo.ise'.
+WARNING:Cpld - This package type has been discontinued and therefore should not
+   be used for new designs. For more information on this, see Xilinx Customer
+   Notification XCN07022.
+*************************  Summary of Mapped Logic  ************************
+
+** 8 Outputs **
+
+Signal              Total Total Bank Loc     Pin   Pin       Pin     I/O      I/O       Slew Reg     Reg Init
+Name                Pts   Inps               No.   Type      Use     STD      Style     Rate Use     State
+D0                  1     3     2    FB1_1   44    I/O       O       LVCMOS18           FAST         
+D1                  1     3     2    FB1_2   43    I/O       O       LVCMOS18           FAST         
+D2                  1     3     2    FB1_3   42    I/O       O       LVCMOS18           FAST         
+D3                  1     3     2    FB1_9   40    GTS/I/O   O       LVCMOS18           FAST         
+D4                  1     3     2    FB1_10  39    GTS/I/O   O       LVCMOS18           FAST         
+D5                  1     3     2    FB1_11  38    GTS/I/O   O       LVCMOS18           FAST         
+D6                  1     3     2    FB1_12  37    GTS/I/O   O       LVCMOS18           FAST         
+D7                  1     3     2    FB1_13  36    GSR/I/O   O       LVCMOS18           FAST         
+
+** 3 Inputs **
+
+Signal              Bank Loc     Pin   Pin       Pin     I/O      I/O
+Name                             No.   Type      Use     STD      Style
+X                   1    FB2_1   1     I/O       I       LVCMOS18 KPR
+Y                   1    FB2_2   2     I/O       I       LVCMOS18 KPR
+Z                   1    FB2_5   3     I/O       I       LVCMOS18 KPR
+
+Legend:
+Pin No.   - ~     - User Assigned
+I/O Style - OD    - OpenDrain
+          - PU    - Pullup
+          - KPR   - Keeper
+          - S     - SchmittTrigger
+          - DG    - DataGate
+Reg Use   - LATCH - Transparent latch
+          - DFF   - D-flip-flop
+          - DEFF  - D-flip-flop with clock enable
+          - TFF   - T-flip-flop
+          - TDFF  - Dual-edge-triggered T-flip-flop
+          - DDFF  - Dual-edge-triggered flip-flop
+          - DDEFF - Dual-edge-triggered flip-flop with clock enable
+          /S (after any above flop/latch type) indicates initial state is Set
+**************************  Function Block Details  ************************
+Legend:
+Total Pt     - Total product terms used by the macrocell signal
+Loc          - Location where logic was mapped in device
+Pin Type/Use - I  - Input             GCK - Global clock
+               O  - Output            GTS - Global Output Enable
+              (b) - Buried macrocell  GSR - Global Set/Reset
+              VRF - Vref
+Pin No.      - ~  - User Assigned
+*********************************** FB1  ***********************************
+This function block is part of I/O Bank number:               2
+Number of function block inputs used/remaining:               3/37
+Number of function block control terms used/remaining:        0/4
+Number of PLA product terms used/remaining:                   8/48
+Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
+Name                          Pt            No.  Type    Use   
+D0                            1     FB1_1   44   I/O     O                 
+D1                            1     FB1_2   43   I/O     O                 
+D2                            1     FB1_3   42   I/O     O                 
+(unused)                      0     FB1_4        (b)           
+(unused)                      0     FB1_5        (b)           
+(unused)                      0     FB1_6        (b)           
+(unused)                      0     FB1_7        (b)           
+(unused)                      0     FB1_8        (b)           
+D3                            1     FB1_9   40   GTS/I/O O                 
+D4                            1     FB1_10  39   GTS/I/O O                 
+D5                            1     FB1_11  38   GTS/I/O O                 
+D6                            1     FB1_12  37   GTS/I/O O                 
+D7                            1     FB1_13  36   GSR/I/O O                 
+(unused)                      0     FB1_14       (b)           
+(unused)                      0     FB1_15       (b)           
+(unused)                      0     FB1_16       (b)           
+
+Signals Used by Logic in Function Block
+  1: X                  2: Y                  3: Z 
+
+Signal                     1         2         3         4 FB      
+Name             0----+----0----+----0----+----0----+----0 Inputs  
+D0                XXX..................................... 3       
+D1                XXX..................................... 3       
+D2                XXX..................................... 3       
+D3                XXX..................................... 3       
+D4                XXX..................................... 3       
+D5                XXX..................................... 3       
+D6                XXX..................................... 3       
+D7                XXX..................................... 3       
+                 0----+----1----+----2----+----3----+----4
+                           0         0         0         0
+*********************************** FB2  ***********************************
+This function block is part of I/O Bank number:               1
+Number of function block inputs used/remaining:               0/40
+Number of function block control terms used/remaining:        0/4
+Number of PLA product terms used/remaining:                   0/56
+Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
+Name                          Pt            No.  Type    Use   
+(unused)                      0     FB2_1   1    I/O     I     
+(unused)                      0     FB2_2   2    I/O     I     
+(unused)                      0     FB2_3        (b)           
+(unused)                      0     FB2_4        (b)           
+(unused)                      0     FB2_5   3    I/O     I     
+(unused)                      0     FB2_6   4    I/O           
+(unused)                      0     FB2_7   5    GCK/I/O       
+(unused)                      0     FB2_8   6    GCK/I/O       
+(unused)                      0     FB2_9        (b)           
+(unused)                      0     FB2_10  7    GCK/I/O       
+(unused)                      0     FB2_11       (b)           
+(unused)                      0     FB2_12  8    I/O           
+(unused)                      0     FB2_13  9    I/O           
+(unused)                      0     FB2_14       (b)           
+(unused)                      0     FB2_15       (b)           
+(unused)                      0     FB2_16       (b)           
+*********************************** FB3  ***********************************
+This function block is part of I/O Bank number:               2
+Number of function block inputs used/remaining:               0/40
+Number of function block control terms used/remaining:        0/4
+Number of PLA product terms used/remaining:                   0/56
+Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
+Name                          Pt            No.  Type    Use   
+(unused)                      0     FB3_1   35   I/O           
+(unused)                      0     FB3_2   34   I/O           
+(unused)                      0     FB3_3   33   I/O           
+(unused)                      0     FB3_4        (b)           
+(unused)                      0     FB3_5        (b)           
+(unused)                      0     FB3_6   29   I/O           
+(unused)                      0     FB3_7        (b)           
+(unused)                      0     FB3_8        (b)           
+(unused)                      0     FB3_9        (b)           
+(unused)                      0     FB3_10  28   I/O           
+(unused)                      0     FB3_11  27   I/O           
+(unused)                      0     FB3_12  26   I/O           
+(unused)                      0     FB3_13       (b)           
+(unused)                      0     FB3_14  25   I/O           
+(unused)                      0     FB3_15  24   I/O           
+(unused)                      0     FB3_16       (b)           
+*********************************** FB4  ***********************************
+This function block is part of I/O Bank number:               1
+Number of function block inputs used/remaining:               0/40
+Number of function block control terms used/remaining:        0/4
+Number of PLA product terms used/remaining:                   0/56
+Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
+Name                          Pt            No.  Type    Use   
+(unused)                      0     FB4_1   11   I/O           
+(unused)                      0     FB4_2   12   I/O           
+(unused)                      0     FB4_3        (b)           
+(unused)                      0     FB4_4        (b)           
+(unused)                      0     FB4_5        (b)           
+(unused)                      0     FB4_6        (b)           
+(unused)                      0     FB4_7   14   I/O           
+(unused)                      0     FB4_8        (b)           
+(unused)                      0     FB4_9        (b)           
+(unused)                      0     FB4_10       (b)           
+(unused)                      0     FB4_11  18   I/O           
+(unused)                      0     FB4_12       (b)           
+(unused)                      0     FB4_13  19   I/O           
+(unused)                      0     FB4_14  20   I/O           
+(unused)                      0     FB4_15  22   I/O           
+(unused)                      0     FB4_16       (b)           
+*******************************  Equations  ********************************
+
+********** Mapped Logic **********
+
+
+D0 <= (NOT Z AND NOT Y AND NOT X);
+
+
+D1 <= (Z AND NOT Y AND NOT X);
+
+
+D2 <= (NOT Z AND Y AND NOT X);
+
+
+D3 <= (Z AND Y AND NOT X);
+
+
+D4 <= (NOT Z AND NOT Y AND X);
+
+
+D5 <= (Z AND NOT Y AND X);
+
+
+D6 <= (NOT Z AND Y AND X);
+
+
+D7 <= (Z AND Y AND X);
+
+
+Register Legend:
+ FDCPE (Q,D,C,CLR,PRE,CE); 
+ FDDCPE (Q,D,C,CLR,PRE,CE); 
+ FTCPE (Q,D,C,CLR,PRE,CE); 
+ FTDCPE (Q,D,C,CLR,PRE,CE); 
+ LDCP  (Q,D,G,CLR,PRE); 
+
+******************************  Device Pin Out *****************************
+
+Device : XC2C64A-7-PC44
+
+
+   --------------------------------  
+  /6  5  4  3  2  1  44 43 42 41 40 \
+ | 7                             39 | 
+ | 8                             38 | 
+ | 9                             37 | 
+ | 10                            36 | 
+ | 11        XC2C64A-7-PC44      35 | 
+ | 12                            34 | 
+ | 13                            33 | 
+ | 14                            32 | 
+ | 15                            31 | 
+ | 16                            30 | 
+ | 17                            29 | 
+ \ 18 19 20 21 22 23 24 25 26 27 28 /
+   --------------------------------  
+
+
+Pin Signal                         Pin Signal                        
+No. Name                           No. Name                          
+  1 X                                23 GND                           
+  2 Y                                24 KPR                           
+  3 Z                                25 KPR                           
+  4 KPR                              26 KPR                           
+  5 KPR                              27 KPR                           
+  6 KPR                              28 KPR                           
+  7 KPR                              29 KPR                           
+  8 KPR                              30 TDO                           
+  9 KPR                              31 GND                           
+ 10 GND                              32 VCCIO-1.8                     
+ 11 KPR                              33 KPR                           
+ 12 KPR                              34 KPR                           
+ 13 VCCIO-1.8                        35 KPR                           
+ 14 KPR                              36 D7                            
+ 15 TDI                              37 D6                            
+ 16 TMS                              38 D5                            
+ 17 TCK                              39 D4                            
+ 18 KPR                              40 D3                            
+ 19 KPR                              41 VCCAUX                        
+ 20 KPR                              42 D2                            
+ 21 VCC                              43 D1                            
+ 22 KPR                              44 D0                            
+
+
+Legend :  NC  = Not Connected, unbonded pin
+        PGND  = Unused I/O configured as additional Ground pin
+         KPR  = Unused I/O with weak keeper (leave unconnected)
+         WPU  = Unused I/O with weak pull up (leave unconnected)
+         TIE  = Unused I/O floating -- must tie to VCC, GND or other signal
+         VCC  = Dedicated Power Pin
+      VCCAUX  = Power supply for JTAG pins
+   VCCIO-3.3  = I/O supply voltage for LVTTL, LVCMOS33, SSTL3_I
+   VCCIO-2.5  = I/O supply voltage for LVCMOS25, SSTL2_I
+   VCCIO-1.8  = I/O supply voltage for LVCMOS18
+   VCCIO-1.5  = I/O supply voltage for LVCMOS15, HSTL_I
+        VREF  = Reference voltage for indicated input standard
+       *VREF  = Reference voltage pin selected by software
+         GND  = Dedicated Ground Pin
+         TDI  = Test Data In, JTAG pin
+         TDO  = Test Data Out, JTAG pin
+         TCK  = Test Clock, JTAG pin
+         TMS  = Test Mode Select, JTAG pin
+  PROHIBITED  = User reserved pin
+****************************  Compiler Options  ****************************
+
+Following is a list of all global compiler options used by the fitter run.
+
+Device(s) Specified                         : xc2c64a-7-PC44
+Optimization Method                         : DENSITY
+Multi-Level Logic Optimization              : ON
+Ignore Timing Specifications                : OFF
+Default Register Power Up Value             : LOW
+Keep User Location Constraints              : ON
+What-You-See-Is-What-You-Get                : OFF
+Exhaustive Fitting                          : OFF
+Keep Unused Inputs                          : OFF
+Slew Rate                                   : FAST
+Set Unused I/O Pin Termination              : KEEPER
+Global Clock Optimization                   : ON
+Global Set/Reset Optimization               : ON
+Global Ouput Enable Optimization            : ON
+Enable Input Registers                      : ON
+Function Block Fan-in Limit                 : 38
+Use DATA_GATE Attribute                     : ON
+Set Tristate Outputs to Termination Mode    : KEEPER
+Default Voltage Standard for All Outputs    : LVCMOS18
+Input Limit                                 : 32
+Pterm Limit                                 : 28
+</pre>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

@@ -83,6 +83,7 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
     </transform>
     <transform xil_pn:end_ts="1602561404" xil_pn:in_ck="-1696932448216890894" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1602561404">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -118,11 +119,14 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
     </transform>
     <transform xil_pn:end_ts="1602561362" xil_pn:in_ck="-1696932448216890894" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="726213673792506062" xil_pn:start_ts="1602561341">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="programacion.lso"/>
@@ -140,12 +144,15 @@
     <transform xil_pn:end_ts="1602561362" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1984054840082755046" xil_pn:start_ts="1602561362">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1602561375" xil_pn:in_ck="-1696932448216899640" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="-2719755442700836021" xil_pn:start_ts="1602561362">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="programacion.bld"/>
@@ -155,6 +162,7 @@
     <transform xil_pn:end_ts="1602561389" xil_pn:in_ck="-1696932448216899639" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="-511761122098486403" xil_pn:start_ts="1602561375">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="programacion.chk"/>
       <outfile xil_pn:name="programacion.cxt"/>

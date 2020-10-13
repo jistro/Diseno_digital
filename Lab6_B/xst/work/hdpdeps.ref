@@ -1,0 +1,8 @@
+V3 4
+FL E:/Users/Usuario/GitHub/Diseno_digital/Lab6_B/codigo.vhd 2020/10/12.23:13:33 P.20131013
+EN work/lab_3 0 FL E:/Users/Usuario/GitHub/Diseno_digital/Lab6_B/codigo.vhd
+EN work/codigo 1602562416 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Lab6_B/codigo.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/codigo/Behavioral 1602562417 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Lab6_B/codigo.vhd EN work/codigo 1602562416

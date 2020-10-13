@@ -1,6 +1,14 @@
-V3 3
-FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.vhd 2020/10/12.20:34:09 P.20131013
-EN work/lab_3 0 FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.vhd \
+V3 8
+FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/esquema.vhf 2020/10/12.21:41:17 P.20131013
+EN work/esquema 1602559473 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/esquema.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/esquema/BEHAVIORAL 1602559474 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/esquema.vhf EN work/esquema 1602559473 \
+      CP lab_3
+FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.vhd 2020/10/12.21:12:07 P.20131013
+EN work/lab_3 1602559471 FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/lab_3/Behavioral 0 \
-      FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.vhd EN work/lab_3 0
+AR work/lab_3/Behavioral 1602559472 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.vhd EN work/lab_3 1602559471

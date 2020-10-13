@@ -1,0 +1,5 @@
+# begin LFP file E:\Users\Usuario\GitHub\Diseno_digital\lab3\esquema.lfp
+designfile esquema.vhd
+parttype xc2c64a-pc44-7
+bus_delimiter 0;
+set_busdelim_onsave 1;

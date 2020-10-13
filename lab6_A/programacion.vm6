@@ -1,0 +1,186 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xbr | 2C64A44PC | XC2C64A-7-PC44
+
+DEVICE | 2C64A | 2C64A44PC | 
+
+NETWORK | programacion | 0 | 0 | 1073758214 | 0
+
+MACROCELL_INSTANCE | NULL | F1_MC | programacion_COPY_0_COPY_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X3_II/UIM | 132 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X3_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X2_II/UIM | 134 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X2_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X1_II/UIM | 136 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X1_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | F1_MC.Q | 138 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | F1_MC.Q | F1_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | F1_MC.SI | F1_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X3_II/UIM | 132 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X3_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X2_II/UIM | 134 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X2_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X1_II/UIM | 136 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X1_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | F1_MC.D1 | 129 | ? | 0 | 0 | F1_MC | NULL | NULL | F1_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 3 | IV_TRUE | X3_II/UIM | IV_TRUE | X2_II/UIM | IV_TRUE | X1_II/UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | F1_MC.D2 | 130 | ? | 0 | 0 | F1_MC | NULL | NULL | F1_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | F1_MC.REG | F1_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | F1_MC.D | 128 | ? | 0 | 0 | F1_MC | NULL | NULL | F1_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | F1_MC.Q | 137 | ? | 0 | 0 | F1_MC | NULL | NULL | F1_MC.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | X3_II | programacion_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | X3 | 131 | PI | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | X3_II/UIM | 132 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X3_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | X2_II | programacion_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | X2 | 133 | PI | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | X2_II/UIM | 134 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X2_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | X1_II | programacion_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | X1 | 135 | PI | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | X1_II/UIM | 136 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X1_II | 0 | 5 | II_IMUX
+
+OUTPUT_INSTANCE | 0 | F1 | programacion_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | F1_MC.Q | 138 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | F1_MC.Q | F1_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | F1 | 139 | PO | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | F1 | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv | F2_MC | programacion_COPY_0_COPY_0 | 256 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X3_II/UIM | 132 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X3_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X2_II/UIM | 134 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X2_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X1_II/UIM | 136 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X1_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | F2_MC.Q | 144 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | F2_MC.Q | F2_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | F2_MC.SI | F2_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X3_II/UIM | 132 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X3_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X2_II/UIM | 134 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X2_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X1_II/UIM | 136 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X1_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | F2_MC.D1 | 141 | ? | 0 | 0 | F2_MC | NULL | NULL | F2_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 3 | IV_FALSE | X3_II/UIM | IV_FALSE | X2_II/UIM | IV_FALSE | X1_II/UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | F2_MC.D2 | 142 | ? | 0 | 0 | F2_MC | NULL | NULL | F2_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | F2_MC.REG | F2_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | F2_MC.D | 140 | ? | 0 | 0 | F2_MC | NULL | NULL | F2_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | F2_MC.Q | 143 | ? | 0 | 0 | F2_MC | NULL | NULL | F2_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | F2 | programacion_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | F2_MC.Q | 144 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | F2_MC.Q | F2_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | F2 | 145 | PO | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | F2 | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | F3_MC | programacion_COPY_0_COPY_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X3_II/UIM | 132 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X3_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X2_II/UIM | 134 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X2_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X1_II/UIM | 136 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X1_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | F3_MC.Q | 150 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | F3_MC.Q | F3_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | F3_MC.SI | F3_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X3_II/UIM | 132 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X3_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X2_II/UIM | 134 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X2_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | X1_II/UIM | 136 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | X1_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | F3_MC.D1 | 147 | ? | 0 | 0 | F3_MC | NULL | NULL | F3_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | X3_II/UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | F3_MC.D2 | 148 | ? | 0 | 0 | F3_MC | NULL | NULL | F3_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | X2_II/UIM | IV_FALSE | X1_II/UIM
+SPPTERM | 2 | IV_FALSE | X2_II/UIM | IV_TRUE | X1_II/UIM
+
+SRFF_INSTANCE | F3_MC.REG | F3_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | F3_MC.D | 146 | ? | 0 | 0 | F3_MC | NULL | NULL | F3_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | F3_MC.Q | 149 | ? | 0 | 0 | F3_MC | NULL | NULL | F3_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | F3 | programacion_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | F3_MC.Q | 150 | ? | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | F3_MC.Q | F3_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | F3 | 151 | PO | 0 | 0 | programacion_COPY_0_COPY_0 | NULL | NULL | F3 | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | programacion_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | F3_MC | 1 | NULL | 0 | F3 | 1 | 44 | 49152
+FBPIN | 2 | F1_MC | 1 | NULL | 0 | F1 | 1 | 43 | 49152
+FBPIN | 3 | F2_MC | 1 | NULL | 0 | F2 | 1 | 42 | 49152
+FBPIN | 9 | NULL | 0 | X1_II | 1 | NULL | 0 | 40 | 53248
+FBPIN | 10 | NULL | 0 | X2_II | 1 | NULL | 0 | 39 | 53248
+FBPIN | 11 | NULL | 0 | X3_II | 1 | NULL | 0 | 38 | 53248
+
+FB_INSTANCE | FOOBAR2_ | programacion_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR3_ | programacion_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR4_ | programacion_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | programacion_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR1_ | FOOBAR1__ctinst | programacion_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR2_ | FOOBAR2__ctinst | programacion_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR3_ | FOOBAR3__ctinst | programacion_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR4_ | FOOBAR4__ctinst | programacion_COPY_0_COPY_0 | 0 | 0 | 0
+
+PLA | FOOBAR1_ | 5
+PLA_TERM | 0 | 
+SPPTERM | 2 | IV_FALSE | X2_II/UIM | IV_TRUE | X1_II/UIM
+PLA_TERM | 1 | 
+SPPTERM | 2 | IV_TRUE | X2_II/UIM | IV_FALSE | X1_II/UIM
+PLA_TERM | 10 | 
+SPPTERM | 1 | IV_TRUE | X3_II/UIM
+PLA_TERM | 13 | 
+SPPTERM | 3 | IV_TRUE | X3_II/UIM | IV_TRUE | X2_II/UIM | IV_TRUE | X1_II/UIM
+PLA_TERM | 16 | 
+SPPTERM | 3 | IV_FALSE | X3_II/UIM | IV_FALSE | X2_II/UIM | IV_FALSE | X1_II/UIM
+
+
+IOSTD | LVCMOS18
+X3 | LVCMOS18
+X2 | LVCMOS18
+X1 | LVCMOS18
+F1 | LVCMOS18
+F2 | LVCMOS18
+F3 | LVCMOS18
+
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 6 | X3 | 38 | 8 | X1 | 40 | 9 | X2 | 39
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | -1 | -1 | -1 | -1 | -1 | 10 | -1 | 8 | 9 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+

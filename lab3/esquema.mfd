@@ -1,0 +1,19 @@
+MDF Database:  version 1.0
+MDF_INFO | esquema | XC2C64A-7-PC44
+MACROCELL | 1 | 9 | XLXN_7_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 6 | XLXN_6  | XLXN_4  | XLXN_5  | XLXN_3  | XLXN_2  | XLXN_1
+INPUTP | 6 | 20 | 17 | 19 | 16 | 13 | 12
+EQ | 4 | 
+   XLXN_7 = XLXN_6 & XLXN_4 & XLXN_5
+	# XLXN_6 & !XLXN_5 & XLXN_3
+	# !XLXN_6 & XLXN_5 & XLXN_2
+	# !XLXN_6 & !XLXN_5 & XLXN_1;	// (4 pt, 6 inp)
+
+PIN | XLXN_1 | 64 | 16 | LVCMOS18 | 12 | 1 | 1 | 9
+PIN | XLXN_2 | 64 | 16 | LVCMOS18 | 13 | 1 | 1 | 9
+PIN | XLXN_3 | 64 | 16 | LVCMOS18 | 16 | 1 | 1 | 9
+PIN | XLXN_4 | 64 | 16 | LVCMOS18 | 17 | 1 | 1 | 9
+PIN | XLXN_5 | 64 | 16 | LVCMOS18 | 19 | 1 | 1 | 9
+PIN | XLXN_6 | 64 | 16 | LVCMOS18 | 20 | 1 | 1 | 9
+PIN | XLXN_7 | 536871040 | 0 | LVCMOS18 | 23

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Users/Usuario/GitHub/Diseno_digital/lab6_A/programacion_isim_beh.exe" -prj "E:/Users/Usuario/GitHub/Diseno_digital/lab6_A/programacion_beh.prj" "work.programacion" 

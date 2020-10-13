@@ -3,3 +3,35 @@ xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -
 xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
 xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
 xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c64a-PC44-7 lab_3.ngc lab_3.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-PC44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 lab_3.ngd 
+XSLTProcess lab_3_build.xml 
+tsim -intstyle ise lab_3 lab_3.nga 
+taengine -intstyle ise -f lab_3 -w --format html1 -l lab_3_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -i lab_3 
+vhdtdtfi -lib work lab_3.vhd -prj lab3 -o lab_3.spl -module lab_3 -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xbr lab_3.spl E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.sym 
+XSLTProcess lab_3_build.xml 
+vhdtdtfi -prj lab3 -o E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.vhi -module lab_3 -template E:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work lab_3.vhd 
+XSLTProcess lab_3_build.xml 
+XSLTProcess lab_3_build.xml 
+XSLTProcess lab_3_build.xml 

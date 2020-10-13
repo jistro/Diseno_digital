@@ -1,0 +1,31 @@
+MDF Database:  version 1.0
+MDF_INFO | programacion | XC2C64A-7-PC44
+MACROCELL | 0 | 1 | F1_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 3 | X3  | X2  | X1
+INPUTP | 3 | 81 | 1 | 2
+EQ | 1 | 
+   F1 = X3 & X2 & X1;	// (1 pt, 3 inp)
+
+MACROCELL | 0 | 2 | F2_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 3 | X3  | X2  | X1
+INPUTP | 3 | 81 | 1 | 2
+EQ | 1 | 
+   !F2 = !X3 & !X2 & !X1;	// (1 pt, 3 inp)
+
+MACROCELL | 0 | 0 | F3_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 3 | X3  | X2  | X1
+INPUTP | 3 | 81 | 1 | 2
+EQ | 3 | 
+   F3 = X3
+	$ X2 & !X1
+	# !X2 & X1;	// (3 pt, 3 inp)
+
+PIN | X3 | 64 | 16 | LVCMOS18 | 81 | 3 | 0 | 1 | 0 | 2 | 0 | 0
+PIN | X2 | 64 | 16 | LVCMOS18 | 1 | 3 | 0 | 1 | 0 | 2 | 0 | 0
+PIN | X1 | 64 | 16 | LVCMOS18 | 2 | 3 | 0 | 1 | 0 | 2 | 0 | 0
+PIN | F1 | 536871040 | 0 | LVCMOS18 | 10
+PIN | F2 | 536871040 | 0 | LVCMOS18 | 9
+PIN | F3 | 536871040 | 0 | LVCMOS18 | 11

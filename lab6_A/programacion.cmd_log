@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab6_A/programacion.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab6_A/programacion.syr" 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/lab6_A/programacion.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/lab6_A/programacion.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c64a-PC44-7 programacion.ngc programacion.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-PC44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 programacion.ngd 
+XSLTProcess programacion_build.xml 
+tsim -intstyle ise programacion programacion.nga 
+taengine -intstyle ise -f programacion -w --format html1 -l programacion_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -i programacion 
+vhdtdtfi -lib work programacion.vhd -prj lab6_A -o programacion.spl -module programacion -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xbr programacion.spl E:/Users/Usuario/GitHub/Diseno_digital/lab6_A/programacion.sym 

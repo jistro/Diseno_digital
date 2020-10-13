@@ -1,0 +1,6 @@
+V3 3
+FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.vhd 2020/10/12.20:34:09 P.20131013
+EN work/lab_3 0 FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/lab_3/Behavioral 0 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/lab3/lab_3.vhd EN work/lab_3 0

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/kevin/Documents/lab/Practica8/codigo.xst" -ofn "C:/Users/kevin/Documents/lab/Practica8/codigo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-vq100-5 codigo.ngc codigo.ngd  
+map -intstyle ise -p xc3s200-vq100-5 -cm area -ir off -pr off -c 100 -o codigo_map.ncd codigo.ngd codigo.pcf 
+par -w -intstyle ise -ol high -t 1 codigo_map.ncd codigo.ncd codigo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml codigo.twx codigo.ncd -o codigo.twr codigo.pcf 

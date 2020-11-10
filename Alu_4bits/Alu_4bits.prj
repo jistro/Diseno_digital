@@ -1,0 +1,7 @@
+vhdl work "Xor_4bits.vhd"
+vhdl work "suma_4bits.vhd"
+vhdl work "restaa_4bits.vhd"
+vhdl work "multiplexor_4bits.vhd"
+vhdl work "decod_4bits.vhd"
+vhdl work "And_4bits.vhd"
+vhdl work "Alu_4bits.vhf"

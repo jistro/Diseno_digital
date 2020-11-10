@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Alu_4bits\Alu_4bits.ncd
+OUTFILE=E:\Alu_4bits\Alu_4bits.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=E:\Alu_4bits
+LICENSE=WebPack
+USER_INFO=__0_0_0

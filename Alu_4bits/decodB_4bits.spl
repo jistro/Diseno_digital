@@ -1,0 +1,11 @@
+[Inputs]
+=Sal[3:0]=
+[Outputs]
+A
+B
+C
+D
+E
+F
+G
+[BiDir]

@@ -1,0 +1,16 @@
+[Inputs]
+=EntraA[3:0]=
+=EntraB[3:0]=
+=Sel[2:0]=
+[Outputs]
+A
+B
+C
+D
+E
+F
+G
+[BiDir]
+=Salida[3:0]=
+=carry[4:0]=
+=carryres[4:0]=

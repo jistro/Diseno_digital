@@ -1,0 +1,122 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Alu_4bits.twx Alu_4bits.ncd -o Alu_4bits.twr Alu_4bits.pcf
+-ucf Nexys4_Master.ucf
+
+Design file:              Alu_4bits.ncd
+Physical constraint file: Alu_4bits.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DatoA<0>       |A              |   10.069|
+DatoA<0>       |B              |   10.131|
+DatoA<0>       |C              |   10.013|
+DatoA<0>       |D              |   10.449|
+DatoA<0>       |E              |    9.418|
+DatoA<0>       |F              |    9.849|
+DatoA<0>       |G              |    9.299|
+DatoA<1>       |A              |    9.275|
+DatoA<1>       |B              |    9.337|
+DatoA<1>       |C              |    9.219|
+DatoA<1>       |D              |    9.655|
+DatoA<1>       |E              |    8.624|
+DatoA<1>       |F              |    9.055|
+DatoA<1>       |G              |    8.525|
+DatoA<2>       |A              |    9.398|
+DatoA<2>       |B              |    9.460|
+DatoA<2>       |C              |    9.342|
+DatoA<2>       |D              |    9.778|
+DatoA<2>       |E              |    8.747|
+DatoA<2>       |F              |    9.178|
+DatoA<2>       |G              |    8.634|
+DatoA<3>       |A              |    9.397|
+DatoA<3>       |B              |    9.459|
+DatoA<3>       |C              |    9.341|
+DatoA<3>       |D              |    9.777|
+DatoA<3>       |E              |    8.746|
+DatoA<3>       |F              |    9.177|
+DatoA<3>       |G              |    8.627|
+DatoB<0>       |A              |    9.263|
+DatoB<0>       |B              |    9.325|
+DatoB<0>       |C              |    9.207|
+DatoB<0>       |D              |    9.643|
+DatoB<0>       |E              |    8.612|
+DatoB<0>       |F              |    9.043|
+DatoB<0>       |G              |    8.493|
+DatoB<1>       |A              |    9.044|
+DatoB<1>       |B              |    9.106|
+DatoB<1>       |C              |    8.988|
+DatoB<1>       |D              |    9.424|
+DatoB<1>       |E              |    8.393|
+DatoB<1>       |F              |    8.824|
+DatoB<1>       |G              |    8.379|
+DatoB<2>       |A              |    8.737|
+DatoB<2>       |B              |    8.799|
+DatoB<2>       |C              |    8.681|
+DatoB<2>       |D              |    9.117|
+DatoB<2>       |E              |    8.086|
+DatoB<2>       |F              |    8.517|
+DatoB<2>       |G              |    7.967|
+DatoB<3>       |A              |    8.143|
+DatoB<3>       |B              |    8.205|
+DatoB<3>       |C              |    8.087|
+DatoB<3>       |D              |    8.523|
+DatoB<3>       |E              |    7.492|
+DatoB<3>       |F              |    7.923|
+DatoB<3>       |G              |    7.373|
+Selector<0>    |A              |    8.711|
+Selector<0>    |B              |    8.820|
+Selector<0>    |C              |    8.655|
+Selector<0>    |D              |    9.131|
+Selector<0>    |E              |    8.217|
+Selector<0>    |F              |    8.636|
+Selector<0>    |G              |    8.504|
+Selector<1>    |A              |    8.554|
+Selector<1>    |B              |    8.616|
+Selector<1>    |C              |    8.498|
+Selector<1>    |D              |    8.934|
+Selector<1>    |E              |    7.903|
+Selector<1>    |F              |    8.334|
+Selector<1>    |G              |    8.177|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Nov 06 22:54:40 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 410 MB
+
+
+

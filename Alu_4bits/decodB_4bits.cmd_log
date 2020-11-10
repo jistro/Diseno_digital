@@ -1,0 +1,2 @@
+vhdtdtfi -lib work decodB_4bits.vhd -prj Alu_4bits -o decodB_4bits.spl -module decodB_4bits -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 decodB_4bits.spl E:/Alu_4bits/decodB_4bits.sym 

@@ -1,6 +1,0 @@
-AR contador_updown rtl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/contador.vhd sub00/vhpl03 1605757842
-AR test prueba E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/contador.vhd sub00/vhpl02 1605757844
-EN contador_updown NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/contador.vhd sub00/vhpl00 1605757841
-AR contador_0_to_9 behavioral E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/CONTADOR_0_TO_9.vhd sub00/vhpl05 1605759221
-EN contador_0_to_9 NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/CONTADOR_0_TO_9.vhd sub00/vhpl04 1605759220
-EN test NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/contador.vhd sub00/vhpl01 1605757843

@@ -1,0 +1,8 @@
+V3 3
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd 2020/11/19.23:34:37 P.20131013
+EN work/CONTADOR_0_TO_9 1605850481 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CONTADOR_0_TO_9/Behavioral 1605850482 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd \
+      EN work/CONTADOR_0_TO_9 1605850481

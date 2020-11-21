@@ -1,0 +1,374 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Reading design: CONTADOR_0_TO_9.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CONTADOR_0_TO_9.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CONTADOR_0_TO_9"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-vq100
+
+---- Source Options
+Top Module Name                    : CONTADOR_0_TO_9
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd" in Library work.
+Entity <contador_0_to_9> compiled.
+Entity <contador_0_to_9> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <CONTADOR_0_TO_9> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <CONTADOR_0_TO_9> in library <work> (Architecture <behavioral>).
+Entity <CONTADOR_0_TO_9> analyzed. Unit <CONTADOR_0_TO_9> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CONTADOR_0_TO_9>.
+    Related source file is "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd".
+    Found 16x7-bit ROM for signal <DISPLAY>.
+    Found 4-bit up counter for signal <CONTADOR_PRINCIPAL>.
+    Found 26-bit up counter for signal <RETRASO>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   2 Counter(s).
+Unit <CONTADOR_0_TO_9> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 2
+ 26-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Counters                                             : 2
+ 26-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <CONTADOR_0_TO_9> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CONTADOR_0_TO_9, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 30
+ Flip-Flops                                            : 30
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : CONTADOR_0_TO_9.ngr
+Top Level Output File Name         : CONTADOR_0_TO_9
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 107
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 25
+#      LUT2                        : 2
+#      LUT3                        : 2
+#      LUT3_L                      : 1
+#      LUT4                        : 15
+#      MUXCY                       : 32
+#      VCC                         : 1
+#      XORCY                       : 26
+# FlipFlops/Latches                : 30
+#      FDRE                        : 30
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 2
+#      OBUF                        : 7
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200vq100-5 
+
+ Number of Slices:                       24  out of   1920     1%  
+ Number of Slice Flip Flops:             30  out of   3840     0%  
+ Number of 4 input LUTs:                 47  out of   3840     1%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of     63    15%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 30    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 7.043ns (Maximum Frequency: 141.987MHz)
+   Minimum input arrival time before clock: 7.604ns
+   Maximum output required time after clock: 7.962ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 7.043ns (frequency: 141.987MHz)
+  Total number of paths / destination ports: 1261 / 64
+-------------------------------------------------------------------------
+Delay:               7.043ns (Levels of Logic = 9)
+  Source:            RETRASO_7 (FF)
+  Destination:       RETRASO_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: RETRASO_7 to RETRASO_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.626   1.040  RETRASO_7 (RETRASO_7)
+     LUT3:I0->O            1   0.479   0.000  CONTADOR_PRINCIPAL_or00001_wg_lut<0> (CONTADOR_PRINCIPAL_or00001_wg_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  CONTADOR_PRINCIPAL_or00001_wg_cy<0> (CONTADOR_PRINCIPAL_or00001_wg_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  CONTADOR_PRINCIPAL_or00001_wg_cy<1> (CONTADOR_PRINCIPAL_or00001_wg_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  CONTADOR_PRINCIPAL_or00001_wg_cy<2> (CONTADOR_PRINCIPAL_or00001_wg_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  CONTADOR_PRINCIPAL_or00001_wg_cy<3> (CONTADOR_PRINCIPAL_or00001_wg_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  CONTADOR_PRINCIPAL_or00001_wg_cy<4> (CONTADOR_PRINCIPAL_or00001_wg_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  CONTADOR_PRINCIPAL_or00001_wg_cy<5> (CONTADOR_PRINCIPAL_or00001_wg_cy<5>)
+     MUXCY:CI->O           6   0.246   1.023  CONTADOR_PRINCIPAL_or00001_wg_cy<6> (CONTADOR_PRINCIPAL_not0001)
+     LUT2:I1->O           26   0.479   1.546  RETRASO_or00001 (RETRASO_or0000)
+     FDRE:R                    0.892          RETRASO_0
+    ----------------------------------------
+    Total                      7.043ns (3.434ns logic, 3.609ns route)
+                                       (48.8% logic, 51.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 90 / 60
+-------------------------------------------------------------------------
+Offset:              7.604ns (Levels of Logic = 4)
+  Source:            INI (PAD)
+  Destination:       RETRASO_0 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: INI to RETRASO_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            27   0.715   1.846  INI_IBUF (INI_IBUF)
+     LUT4:I0->O            1   0.479   0.000  CONTADOR_PRINCIPAL_or00001_wg_lut<6> (CONTADOR_PRINCIPAL_or00001_wg_lut<6>)
+     MUXCY:S->O            6   0.625   1.023  CONTADOR_PRINCIPAL_or00001_wg_cy<6> (CONTADOR_PRINCIPAL_not0001)
+     LUT2:I1->O           26   0.479   1.546  RETRASO_or00001 (RETRASO_or0000)
+     FDRE:R                    0.892          RETRASO_0
+    ----------------------------------------
+    Total                      7.604ns (3.190ns logic, 4.414ns route)
+                                       (42.0% logic, 58.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 28 / 7
+-------------------------------------------------------------------------
+Offset:              7.962ns (Levels of Logic = 2)
+  Source:            CONTADOR_PRINCIPAL_1 (FF)
+  Destination:       DISPLAY<6> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: CONTADOR_PRINCIPAL_1 to DISPLAY<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            11   0.626   1.267  CONTADOR_PRINCIPAL_1 (CONTADOR_PRINCIPAL_1)
+     LUT4:I0->O            1   0.479   0.681  Mrom_DISPLAY61 (DISPLAY_6_OBUF)
+     OBUF:I->O                 4.909          DISPLAY_6_OBUF (DISPLAY<6>)
+    ----------------------------------------
+    Total                      7.962ns (6.014ns logic, 1.948ns route)
+                                       (75.5% logic, 24.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 23.40 secs
+ 
+--> 
+
+Total memory usage is 230528 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

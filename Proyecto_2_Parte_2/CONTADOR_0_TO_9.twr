@@ -2,7 +2,7 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
 -n 3 -fastpaths -xml CONTADOR_0_TO_9.twx CONTADOR_0_TO_9.ncd -o
 CONTADOR_0_TO_9.twr CONTADOR_0_TO_9.pcf
 
@@ -72,14 +72,14 @@ CLK            |    6.764|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Thu Nov 19 23:33:30 2020 
+Analysis completed Sat Nov 21 14:35:51 2020 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 150 MB
+Peak Memory Usage: 4476 MB
 
 
 

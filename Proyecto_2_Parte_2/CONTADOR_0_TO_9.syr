@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.58 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.59 secs
  
 --> Reading design: CONTADOR_0_TO_9.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 8
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -104,9 +104,10 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd" in Library work.
-Entity <contador_0_to_9> compiled.
-Entity <contador_0_to_9> (Architecture <behavioral>) compiled.
+WARNING:HDLParsers:3607 - Unit work/CONTADOR_0_TO_9 is now defined in a different file.  It was defined in "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd", and is now defined in "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd".
+WARNING:HDLParsers:3607 - Unit work/CONTADOR_0_TO_9/Behavioral is now defined in a different file.  It was defined in "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd", and is now defined in "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd".
+Compiling vhdl file "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd" in Library work.
+Architecture behavioral of Entity contador_0_to_9 is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -128,7 +129,7 @@ Entity <CONTADOR_0_TO_9> analyzed. Unit <CONTADOR_0_TO_9> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <CONTADOR_0_TO_9>.
-    Related source file is "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd".
+    Related source file is "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd".
     Found 16x7-bit ROM for signal <DISPLAY>.
     Found 4-bit up counter for signal <CONTADOR_PRINCIPAL>.
     Found 26-bit up counter for signal <RETRASO>.
@@ -361,14 +362,14 @@ Offset:              7.962ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 23.00 secs
-Total CPU time to Xst completion: 23.40 secs
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 21.76 secs
  
 --> 
 
-Total memory usage is 230528 kilobytes
+Total memory usage is 4506072 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

@@ -1,0 +1,135 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.52 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.53 secs
+ 
+--> Reading design: contador_v4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "contador_v4.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "contador_v4"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-vq100
+
+---- Source Options
+Top Module Name                    : contador_v4
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" in Library work.
+Entity <contador_reloj> compiled.
+ERROR:HDLParsers:3010 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 15. Entity contador_v4 does not exist.
+ERROR:HDLParsers:3312 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 17. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 17. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 19. Undefined symbol 'aload'.
+ERROR:HDLParsers:1209 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 19. aload: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 19. Undefined symbol 'areset'.
+ERROR:HDLParsers:1209 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 19. areset: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 19. Undefined symbol 'clk'.
+ERROR:HDLParsers:1209 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 19. clk: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 19. Undefined symbol 'data'.
+ERROR:HDLParsers:1209 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 19. data: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 21. Undefined symbol 'cnt_tmp'.
+ERROR:HDLParsers:1209 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 23. cnt_tmp: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 24. Undefined symbol 'rising_edge'.
+ERROR:HDLParsers:1209 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 24. rising_edge: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 19. No sensitivity list and no wait in the process
+ERROR:HDLParsers:3312 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 33. Undefined symbol 'cnt_out'.
+ERROR:HDLParsers:3312 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 33. Undefined symbol 'cnt_tmp'.
+ERROR:HDLParsers:1209 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd" Line 33. cnt_tmp: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 4493548 kilobytes
+
+Number of errors   :   18 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

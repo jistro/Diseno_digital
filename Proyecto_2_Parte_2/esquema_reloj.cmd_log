@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/esquema_reloj.xst" -ofn "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/esquema_reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-vq100-5 esquema_reloj.ngc esquema_reloj.ngd  
+map -intstyle ise -p xc3s200-vq100-5 -cm area -ir off -pr off -c 100 -o esquema_reloj_map.ncd esquema_reloj.ngd esquema_reloj.pcf 
+par -w -intstyle ise -ol high -t 1 esquema_reloj_map.ncd esquema_reloj.ncd esquema_reloj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml esquema_reloj.twx esquema_reloj.ncd -o esquema_reloj.twr esquema_reloj.pcf 

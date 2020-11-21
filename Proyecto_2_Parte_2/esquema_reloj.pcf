@@ -1,0 +1,8 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Nov 21 16:15:16 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+NET "XLXN_35_BUFGP/IBUFG" BEL "XLXN_35_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

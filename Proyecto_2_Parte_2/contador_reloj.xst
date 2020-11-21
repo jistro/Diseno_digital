@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/xst"
+elaborate
+-ifn contador_reloj.prj
+-ifmt mixed

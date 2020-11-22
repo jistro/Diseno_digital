@@ -1,6 +1,8 @@
 EN contador_reloj NULL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd sub00/vhpl02 1605993196
 EN esquema_reloj NULL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/esquema_reloj.vhf sub00/vhpl06 1605996868
 AR contador_reloj behavioral C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd sub00/vhpl03 1605993197
+AR contador_r behavioral C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Contador_R.vhd sub00/vhpl09 1605998420
+EN contador_r NULL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Contador_R.vhd sub00/vhpl08 1605998419
 AR esquema_reloj behavioral C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/esquema_reloj.vhf sub00/vhpl07 1605996869
 AR contador_0_to_9 behavioral C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd sub00/vhpl01 1605990863
 EN contador_0_to_9 NULL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd sub00/vhpl00 1605990862

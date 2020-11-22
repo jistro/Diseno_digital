@@ -33,7 +33,12 @@ int main(int argc, char **argv)
     unisim_p_0947159679_init();
     ieee_p_3499444699_init();
     ieee_p_3620187407_init();
-    work_a_2187592342_3212880686_init();
+    unisim_a_3055263662_1392679692_init();
+    unisim_a_3988446151_0546328132_init();
+    work_a_2310588905_3212880686_init();
+    work_a_0839098331_3212880686_init();
+    work_a_2357181124_3212880686_init();
+    work_a_0935652598_3212880686_init();
     work_a_0617508062_3212880686_init();
 
 

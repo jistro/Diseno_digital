@@ -41,6 +41,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CONTADOR_0_TO_9.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="CONTADOR_0_TO_9_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="CONTADOR_0_TO_9_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CONTADOR_0_TO_9_isim_beh.exe"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CONTADOR_0_TO_9_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CONTADOR_0_TO_9_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CONTADOR_0_TO_9_map.ncd" xil_pn:subbranch="Map"/>
@@ -50,6 +51,19 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="CONTADOR_0_TO_9_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CONTADOR_0_TO_9_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CONTADOR_0_TO_9_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Cont_Hrs_D.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Cont_Hrs_D.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Cont_Hrs_U.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Cont_Hrs_U.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Cont_Min_D.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Cont_Min_D.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Cont_Min_U.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Cont_Min_U.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Contador_R.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Contador_R.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Contador_R.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Contador_R.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Contador_R.xst"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
@@ -90,6 +104,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="esquema_reloj.prj"/>
     <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="esquema_reloj.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="esquema_reloj.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="esquema_reloj.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="esquema_reloj.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="esquema_reloj.twr" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="esquema_reloj.twx" xil_pn:subbranch="Par"/>
@@ -100,8 +115,10 @@
     </file>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="esquema_reloj.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="esquema_reloj.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="esquema_reloj_beh.prj"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="esquema_reloj_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="esquema_reloj_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="esquema_reloj_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="esquema_reloj_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="esquema_reloj_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="esquema_reloj_map.ncd" xil_pn:subbranch="Map"/>
@@ -131,60 +148,63 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1605997216" xil_pn:in_ck="-4728930619581323038" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1605997216">
+    <transform xil_pn:end_ts="1606003536" xil_pn:in_ck="-3037835630181983177" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1606003536">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Cont_Hrs_D.vhd"/>
+      <outfile xil_pn:name="Cont_Hrs_U.vhd"/>
+      <outfile xil_pn:name="Cont_Min_D.vhd"/>
+      <outfile xil_pn:name="Cont_Min_U.vhd"/>
+      <outfile xil_pn:name="Contador_R.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1606001432" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4947849738355860263" xil_pn:start_ts="1606001432">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1606003541" xil_pn:in_ck="1809317380864402936" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4065068535447494033" xil_pn:start_ts="1606003536">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1605997216" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2534031170508235608" xil_pn:start_ts="1605997216">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1605997220" xil_pn:in_ck="1809317380864402936" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4620384870454443504" xil_pn:start_ts="1605997216">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="esquema_reloj.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1605994876" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-9199731097307717877" xil_pn:start_ts="1605994876">
+    <transform xil_pn:end_ts="1605998739" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-9199731097307717877" xil_pn:start_ts="1605998739">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1605997220" xil_pn:in_ck="-6835668511126242176" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1605997220">
+    <transform xil_pn:end_ts="1606003541" xil_pn:in_ck="1541297052097193077" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1606003541">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="Cont_Hrs_D.vhd"/>
+      <outfile xil_pn:name="Cont_Hrs_U.vhd"/>
+      <outfile xil_pn:name="Cont_Min_D.vhd"/>
+      <outfile xil_pn:name="Cont_Min_U.vhd"/>
+      <outfile xil_pn:name="Contador_R.vhd"/>
+      <outfile xil_pn:name="esquema_reloj.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1605997231" xil_pn:in_ck="-6835668511126242176" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4938887122884687168" xil_pn:start_ts="1605997220">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1605997231" xil_pn:in_ck="-8345324666557057944" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4867564318732679507" xil_pn:start_ts="1605997231">
+    <transform xil_pn:end_ts="1606003557" xil_pn:in_ck="1541297052097193077" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3451036629605007752" xil_pn:start_ts="1606003541">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="esquema_reloj_beh.prj"/>
+      <outfile xil_pn:name="esquema_reloj_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1606003558" xil_pn:in_ck="-6781509882692740390" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3922026888374916453" xil_pn:start_ts="1606003557">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="esquema_reloj_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1605850328" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1605850328">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -194,7 +214,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="esquema_reloj.vhf"/>
     </transform>
     <transform xil_pn:end_ts="1605996858" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-9199731097307717877" xil_pn:start_ts="1605996858">
@@ -225,6 +247,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>

@@ -1,4 +1,4 @@
-V3 15
+V3 18
 FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador.vhd 2020/11/21.15:49:09 P.20131013
 EN work/contador 1605996866 \
       FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador.vhd \
@@ -13,6 +13,13 @@ EN work/CONTADOR_0_TO_9 1605990862 \
 AR work/CONTADOR_0_TO_9/Behavioral 1605990863 \
       FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/CONTADOR_0_TO_9.vhd \
       EN work/CONTADOR_0_TO_9 1605990862
+FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Contador_R.vhd 2020/11/21.16:40:04 P.20131013
+EN work/Contador_R 1605998419 \
+      FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Contador_R.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Contador_R/Behavioral 1605998420 \
+      FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Contador_R.vhd \
+      EN work/Contador_R 1605998419
 FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd 2020/11/21.15:13:03 P.20131013
 EN work/contador_reloj 1605993196 \
       FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/contador_reloj.vhd \

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Cont_Min_U.vhd -prj Proyecto_2_Parte_2 -o Cont_Min_U.spl -module Cont_Min_U -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Cont_Min_U.spl C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Cont_Min_U.sym 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Contador_R.vhd -prj Proyecto_2_Parte_2 -o Contador_R.spl -module Contador_R -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Contador_R.spl C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Contador_R.sym 

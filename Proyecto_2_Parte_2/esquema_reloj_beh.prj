@@ -1,0 +1,5 @@
+vhdl work "Cont_Min_U.vhd"
+vhdl work "Cont_Min_D.vhd"
+vhdl work "Cont_Hrs_U.vhd"
+vhdl work "Cont_Hrs_D.vhd"
+vhdl work "esquema_reloj.vhf"

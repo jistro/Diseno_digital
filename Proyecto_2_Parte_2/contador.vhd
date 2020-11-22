@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
  
-entity contador_reloj is
+entity contador is
     PORT (
         clk    : IN  STD_LOGIC;
         areset : IN  STD_LOGIC;
@@ -14,9 +14,9 @@ entity contador_reloj is
 		  a2 : OUT  STD_LOGIC;
 		  a3 : OUT  STD_LOGIC
     );
-end contador_reloj;
+end contador;
  
-architecture Behavioral of contador_reloj is
+architecture Behavioral of contador is
     -- Señal temporal para el contador.
     signal cnt_tmp: STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
 begin

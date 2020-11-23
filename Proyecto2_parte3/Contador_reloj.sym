@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Contador_reloj">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2020-11-23T18:43:22</timestamp>
+    <pin polarity="Input" x="0" y="-1248" name="clk_min_u" />
+    <pin polarity="Input" x="0" y="-1088" name="clk_min_d" />
+    <pin polarity="Input" x="0" y="-928" name="clk_hr_u" />
+    <pin polarity="Input" x="0" y="-768" name="clk_hr_d" />
+    <pin polarity="Input" x="0" y="-608" name="clk_am_pm" />
+    <pin polarity="Output" x="384" y="-1248" name="upd_m_d" />
+    <pin polarity="Output" x="384" y="-1184" name="upd_h_u" />
+    <pin polarity="Output" x="384" y="-1120" name="upd_h_d" />
+    <pin polarity="Output" x="384" y="-1056" name="upd_am_pm" />
+    <pin polarity="Output" x="384" y="-992" name="M_U_0" />
+    <pin polarity="Output" x="384" y="-928" name="M_U_1" />
+    <pin polarity="Output" x="384" y="-864" name="M_U_2" />
+    <pin polarity="Output" x="384" y="-800" name="M_U_3" />
+    <pin polarity="Output" x="384" y="-736" name="M_D_0" />
+    <pin polarity="Output" x="384" y="-672" name="M_D_1" />
+    <pin polarity="Output" x="384" y="-608" name="M_D_2" />
+    <pin polarity="Output" x="384" y="-544" name="M_D_3" />
+    <pin polarity="Output" x="384" y="-480" name="H_U_0" />
+    <pin polarity="Output" x="384" y="-416" name="H_U_1" />
+    <pin polarity="Output" x="384" y="-352" name="H_U_2" />
+    <pin polarity="Output" x="384" y="-288" name="H_U_3" />
+    <pin polarity="Output" x="384" y="-224" name="H_D_0" />
+    <pin polarity="Output" x="384" y="-160" name="H_D_1" />
+    <pin polarity="Output" x="384" y="-96" name="H_D_2" />
+    <pin polarity="Output" x="384" y="-32" name="H_D_3" />
+    <pin polarity="Input" x="0" y="32" name="clk_doce" />
+    <pin polarity="Input" x="0" y="96" name="areset_min_u" />
+    <pin polarity="Input" x="0" y="160" name="areset_min_d" />
+    <pin polarity="Input" x="0" y="224" name="areset_hr_u" />
+    <pin polarity="Input" x="0" y="288" name="areset_hr_d" />
+    <pin polarity="Input" x="0" y="352" name="areset_am_pm" />
+    <pin polarity="Output" x="384" y="32" name="upd_doce" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-1288" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1248" type="pin clk_min_u" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1088" type="pin clk_min_d" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-928" type="pin clk_hr_u" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-768" type="pin clk_hr_d" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin clk_am_pm" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1248" type="pin upd_m_d" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1184" type="pin upd_h_u" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1120" type="pin upd_h_d" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-1056" type="pin upd_am_pm" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-992" type="pin M_U_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-928" type="pin M_U_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-864" type="pin M_U_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-800" type="pin M_U_3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-736" type="pin M_D_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-672" type="pin M_D_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-608" type="pin M_D_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-544" type="pin M_D_3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-480" type="pin H_U_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-416" type="pin H_U_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-352" type="pin H_U_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-288" type="pin H_U_3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-224" type="pin H_D_0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-160" type="pin H_D_1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-96" type="pin H_D_2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-32" type="pin H_D_3" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin clk_doce" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin areset_min_u" />
+        <line x2="0" y1="96" y2="96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="160" type="pin areset_min_d" />
+        <line x2="0" y1="160" y2="160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="224" type="pin areset_hr_u" />
+        <line x2="0" y1="224" y2="224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="288" type="pin areset_hr_d" />
+        <line x2="0" y1="288" y2="288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="352" type="pin areset_am_pm" />
+        <line x2="0" y1="352" y2="352" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin upd_doce" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="-1248" y2="-1248" x1="64" />
+        <line x2="0" y1="-1088" y2="-1088" x1="64" />
+        <line x2="0" y1="-928" y2="-928" x1="64" />
+        <line x2="0" y1="-768" y2="-768" x1="64" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <line x2="384" y1="-1248" y2="-1248" x1="320" />
+        <line x2="384" y1="-1184" y2="-1184" x1="320" />
+        <line x2="384" y1="-1120" y2="-1120" x1="320" />
+        <line x2="384" y1="-1056" y2="-1056" x1="320" />
+        <line x2="384" y1="-992" y2="-992" x1="320" />
+        <line x2="384" y1="-928" y2="-928" x1="320" />
+        <line x2="384" y1="-864" y2="-864" x1="320" />
+        <line x2="384" y1="-800" y2="-800" x1="320" />
+        <line x2="384" y1="-736" y2="-736" x1="320" />
+        <line x2="384" y1="-672" y2="-672" x1="320" />
+        <line x2="384" y1="-608" y2="-608" x1="320" />
+        <line x2="384" y1="-544" y2="-544" x1="320" />
+        <line x2="384" y1="-480" y2="-480" x1="320" />
+        <line x2="384" y1="-416" y2="-416" x1="320" />
+        <line x2="384" y1="-352" y2="-352" x1="320" />
+        <line x2="384" y1="-288" y2="-288" x1="320" />
+        <line x2="384" y1="-224" y2="-224" x1="320" />
+        <line x2="384" y1="-160" y2="-160" x1="320" />
+        <line x2="384" y1="-96" y2="-96" x1="320" />
+        <line x2="384" y1="-32" y2="-32" x1="320" />
+        <rect width="256" x="64" y="-1280" height="1664" />
+    </graph>
+</symbol>

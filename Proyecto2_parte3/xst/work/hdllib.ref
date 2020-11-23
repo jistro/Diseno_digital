@@ -1,2 +1,4 @@
 EN reloj NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd sub00/vhpl00 1606111677
+EN contador_reloj NULL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd sub00/vhpl02 1606156974
+AR contador_reloj behavioral C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd sub00/vhpl03 1606156975
 AR reloj behavioral E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd sub00/vhpl01 1606111678

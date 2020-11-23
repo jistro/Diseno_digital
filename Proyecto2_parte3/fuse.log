@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_isim_beh.exe -prj C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_beh.prj work.Esquema 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd" into library work
+WARNING:HDLCompiler:1369 - "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd" Line 106: Possible infinite loop; process does not have a wait statement
+Parsing VHDL file "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Contador_reloj [contador_reloj_default]
+Compiling architecture behavioral of entity esquema
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_isim_beh.exe
+Fuse Memory Usage: 48884 KB
+Fuse CPU Usage: 2249 ms

@@ -1,4 +1,11 @@
-V3 3
+V3 6
+FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd 2020/11/23.12:42:32 P.20131013
+EN work/Contador_reloj 1606156974 \
+      FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Contador_reloj/Behavioral 1606156975 \
+      FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd \
+      EN work/Contador_reloj 1606156974
 FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd 2020/11/23.00:07:11 P.20131013
 EN work/Reloj 1606111677 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd \

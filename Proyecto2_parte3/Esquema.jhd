@@ -1,0 +1,3 @@
+MODULE Esquema
+	SUBMODULE Reloj
+		INSTANCE XLXI_1

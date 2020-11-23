@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/CONTADOR_0_TO_9_isim_beh.exe" -prj "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/CONTADOR_0_TO_9_beh.prj" "work.CONTADOR_0_TO_9" 

@@ -1,0 +1,7 @@
+[Inputs]
+CLK
+INI
+RESET
+[Outputs]
+=DISPLAY[6:0]=
+[BiDir]

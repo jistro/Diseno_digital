@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/CONTADOR_0_TO_9.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/CONTADOR_0_TO_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-vq100-5 CONTADOR_0_TO_9.ngc CONTADOR_0_TO_9.ngd  
+map -intstyle ise -p xc3s200-vq100-5 -cm area -ir off -pr off -c 100 -o CONTADOR_0_TO_9_map.ncd CONTADOR_0_TO_9.ngd CONTADOR_0_TO_9.pcf 
+par -w -intstyle ise -ol high -t 1 CONTADOR_0_TO_9_map.ncd CONTADOR_0_TO_9.ncd CONTADOR_0_TO_9.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTADOR_0_TO_9.twx CONTADOR_0_TO_9.ncd -o CONTADOR_0_TO_9.twr CONTADOR_0_TO_9.pcf 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/CONTADOR_0_TO_9.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/CONTADOR_0_TO_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-vq100-5 CONTADOR_0_TO_9.ngc CONTADOR_0_TO_9.ngd  
+map -intstyle ise -p xc3s200-vq100-5 -cm area -ir off -pr off -c 100 -o CONTADOR_0_TO_9_map.ncd CONTADOR_0_TO_9.ngd CONTADOR_0_TO_9.pcf 
+par -w -intstyle ise -ol high -t 1 CONTADOR_0_TO_9_map.ncd CONTADOR_0_TO_9.ncd CONTADOR_0_TO_9.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTADOR_0_TO_9.twx CONTADOR_0_TO_9.ncd -o CONTADOR_0_TO_9.twr CONTADOR_0_TO_9.pcf 
+vhdtdtfi -lib work CONTADOR_0_TO_9.vhd -prj Proyecto2_Parte2 -o CONTADOR_0_TO_9.spl -module CONTADOR_0_TO_9 -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 CONTADOR_0_TO_9.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_Parte2/CONTADOR_0_TO_9.sym 

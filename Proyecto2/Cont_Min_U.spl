@@ -1,0 +1,11 @@
+[Inputs]
+clk
+areset
+aload
+=data[3:0]=
+[Outputs]
+a0
+a1
+a2
+a3
+[BiDir]

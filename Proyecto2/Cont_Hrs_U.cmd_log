@@ -1,0 +1,4 @@
+vhdtdtfi -lib work Cont_Hrs_u.vhd -prj Proyecto2 -o Cont_Hrs_U.spl -module Cont_Hrs_U -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Cont_Hrs_U.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Hrs_U.sym 
+vhdtdtfi -lib work Cont_Hrs_u.vhd -prj Proyecto2 -o Cont_Hrs_U.spl -module Cont_Hrs_U -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Cont_Hrs_U.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Hrs_U.sym 

@@ -1,0 +1,8 @@
+V3 3
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd 2020/11/23.00:07:11 P.20131013
+EN work/Reloj 1606111677 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Reloj/Behavioral 1606111678 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd \
+      EN work/Reloj 1606111677

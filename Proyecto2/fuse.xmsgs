@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 291: Formal port &lt;<arg fmt="%s" index="1">clk_m_u</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 292: Formal port &lt;<arg fmt="%s" index="1">clk_m_d</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 293: Formal port &lt;<arg fmt="%s" index="1">clk_h_u</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 294: Formal port &lt;<arg fmt="%s" index="1">clk_h_d</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 295: Formal port &lt;<arg fmt="%s" index="1">clk_am_pm</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 296: Formal port &lt;<arg fmt="%s" index="1">areset</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 297: Formal port &lt;<arg fmt="%s" index="1">aload</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 298: Formal port &lt;<arg fmt="%s" index="1">data</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 299: Formal port &lt;<arg fmt="%s" index="1">upd_m_d</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 300: Formal port &lt;<arg fmt="%s" index="1">upd_h_u</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 301: Formal port &lt;<arg fmt="%s" index="1">upd_h_d</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 302: Formal port &lt;<arg fmt="%s" index="1">upd_am_pm</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 303: Formal port &lt;<arg fmt="%s" index="1">M_U_0</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 304: Formal port &lt;<arg fmt="%s" index="1">M_U_1</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 305: Formal port &lt;<arg fmt="%s" index="1">M_U_2</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 306: Formal port &lt;<arg fmt="%s" index="1">M_U_3</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 307: Formal port &lt;<arg fmt="%s" index="1">M_D_0</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 308: Formal port &lt;<arg fmt="%s" index="1">M_D_1</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1156" delta="unknown" >"E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/reloj2.vhf" Line 309: Formal port &lt;<arg fmt="%s" index="1">M_D_2</arg>&gt; does not exist in entity &lt;<arg fmt="%s" index="2">Reloj_MUSER_reloj2</arg>&gt;.  Please compare the definition of block &lt;<arg fmt="%s" index="3">Reloj_MUSER_reloj2</arg>&gt; to its component declaration and its instantion to detect the mismatch.
+</msg>
+
+<msg type="error" file="Simulator" num="777" delta="unknown" >Static elaboration of top level VHDL design unit <arg fmt="%s" index="1">reloj2</arg> in library <arg fmt="%s" index="2">work</arg> failed
+</msg>
+
+</messages>
+

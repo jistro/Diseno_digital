@@ -1,0 +1,5 @@
+set -tmpdir "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/xst/projnav.tmp"
+set -xsthdpdir "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/xst"
+elaborate
+-ifn Cont_Min_U.prj
+-ifmt mixed

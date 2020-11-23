@@ -1,0 +1,38 @@
+V3 17
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Hrs_D.vhd 2020/11/21.20:18:40 P.20131013
+AR work/Cont_Hrs_D/Behavioral 1606011467 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Hrs_D.vhd \
+      EN work/Cont_Hrs_D 1606011466
+EN work/Cont_Hrs_D_2 1606011535 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Hrs_D.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Cont_Hrs_D_2/Behavioral 1606011536 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Hrs_D.vhd \
+      EN work/Cont_Hrs_D_2 1606011535
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Hrs_u.vhd 2020/11/21.19:57:06 P.20131013
+EN work/Cont_Hrs_U 1606010232 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Hrs_u.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Cont_Hrs_U/Behavioral 1606010233 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Hrs_u.vhd \
+      EN work/Cont_Hrs_U 1606010232
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Min_D.vhd 2020/11/21.19:55:51 P.20131013
+EN work/Cont_Min_D 1606010163 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Min_D.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Cont_Min_D/Behavioral 1606010164 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Min_D.vhd \
+      EN work/Cont_Min_D 1606010163
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Min_U.vhd 2020/11/21.19:53:21 P.20131013
+EN work/Cont_Min_U 1606010012 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Min_U.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Cont_Min_U/Behavioral 1606010013 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Cont_Min_U.vhd \
+      EN work/Cont_Min_U 1606010012
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Reloj.vhd 2020/11/23.00:05:38 P.20131013
+EN work/Reloj 1606111549 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Reloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Reloj/Behavioral 1606111550 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2/Reloj.vhd EN work/Reloj 1606111549

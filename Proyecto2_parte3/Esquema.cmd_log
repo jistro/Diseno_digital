@@ -3,3 +3,8 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-vq100-5 Esquema.ngc 
 map -intstyle ise -p xc3s200-vq100-5 -cm area -ir off -pr off -c 100 -o Esquema_map.ncd Esquema.ngd Esquema.pcf 
 par -w -intstyle ise -ol high -t 1 Esquema_map.ncd Esquema.ncd Esquema.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Esquema.twx Esquema.ncd -o Esquema.twr Esquema.pcf 
+xst -intstyle ise -ifn "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.xst" -ofn "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-vq100-5 Esquema.ngc Esquema.ngd  
+map -intstyle ise -p xc3s200-vq100-5 -cm area -ir off -pr off -c 100 -o Esquema_map.ncd Esquema.ngd Esquema.pcf 
+par -w -intstyle ise -ol high -t 1 Esquema_map.ncd Esquema.ncd Esquema.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Esquema.twx Esquema.ncd -o Esquema.twr Esquema.pcf 

@@ -44,11 +44,11 @@ Clock RELOJ to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-Alarm       |   12.330(R)|RELOJ_BUFGP       |   0.000|
-MU0         |    8.987(R)|RELOJ_BUFGP       |   0.000|
-MU1         |    9.197(R)|RELOJ_BUFGP       |   0.000|
-MU2         |    9.183(R)|RELOJ_BUFGP       |   0.000|
-MU3         |    9.126(R)|RELOJ_BUFGP       |   0.000|
+Alarm       |   11.528(R)|RELOJ_BUFGP       |   0.000|
+MU0         |    9.233(R)|RELOJ_BUFGP       |   0.000|
+MU1         |    9.895(R)|RELOJ_BUFGP       |   0.000|
+MU2         |    8.316(R)|RELOJ_BUFGP       |   0.000|
+MU3         |    9.152(R)|RELOJ_BUFGP       |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock RELOJ
@@ -56,34 +56,34 @@ Clock to Setup on destination clock RELOJ
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-RELOJ          |    2.089|         |         |         |
+RELOJ          |    1.880|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-AAMPM          |Alarm          |   10.290|
-XLXN_118<0>    |Alarm          |   10.273|
-XLXN_118<1>    |Alarm          |   11.268|
-XLXN_118<2>    |Alarm          |   10.378|
-XLXN_118<3>    |Alarm          |   10.201|
-XLXN_119<0>    |Alarm          |   10.053|
-XLXN_119<1>    |Alarm          |   10.559|
-XLXN_119<2>    |Alarm          |   10.403|
-XLXN_119<3>    |Alarm          |    9.867|
-XLXN_120<0>    |Alarm          |   11.182|
-XLXN_120<1>    |Alarm          |   11.043|
-XLXN_120<2>    |Alarm          |   11.015|
-XLXN_120<3>    |Alarm          |   11.565|
-XLXN_121<0>    |Alarm          |   11.140|
-XLXN_121<1>    |Alarm          |   10.878|
-XLXN_121<2>    |Alarm          |   10.893|
-XLXN_121<3>    |Alarm          |   10.904|
+AAMPM          |Alarm          |   11.651|
+XLXN_118<0>    |Alarm          |   11.124|
+XLXN_118<1>    |Alarm          |   11.071|
+XLXN_118<2>    |Alarm          |   11.737|
+XLXN_118<3>    |Alarm          |   11.116|
+XLXN_119<0>    |Alarm          |   10.390|
+XLXN_119<1>    |Alarm          |   10.181|
+XLXN_119<2>    |Alarm          |    9.986|
+XLXN_119<3>    |Alarm          |   10.420|
+XLXN_120<0>    |Alarm          |   11.304|
+XLXN_120<1>    |Alarm          |   11.339|
+XLXN_120<2>    |Alarm          |   11.125|
+XLXN_120<3>    |Alarm          |   11.735|
+XLXN_121<0>    |Alarm          |   11.555|
+XLXN_121<1>    |Alarm          |   10.883|
+XLXN_121<2>    |Alarm          |   10.998|
+XLXN_121<3>    |Alarm          |   11.225|
 ---------------+---------------+---------+
 
 
-Analysis completed Mon Nov 23 20:30:46 2020 
+Analysis completed Mon Nov 23 21:34:04 2020 
 --------------------------------------------------------------------------------
 
 Trace Settings:

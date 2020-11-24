@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.23 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total CPU time to Xst completion: 0.24 secs
  
 --> Reading design: Esquema.prj
 
@@ -104,38 +104,37 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd" in Library work.
-Architecture behavioral of Entity contador_reloj is up to date.
 Compiling vhdl file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd" in Library work.
 Architecture behavioral of Entity alarma is up to date.
+Compiling vhdl file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd" in Library work.
+Architecture behavioral of Entity contador_reloj is up to date.
 Compiling vhdl file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf" in Library work.
-Entity <Esquema> compiled.
-Entity <Esquema> (Architecture <BEHAVIORAL>) compiled.
+Entity <esquema> compiled.
+Entity <esquema> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <Esquema> in library <work> (architecture <BEHAVIORAL>).
-
-Analyzing hierarchy for entity <Contador_reloj> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <Esquema> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <alarma> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Contador_reloj> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <Esquema> in library <work> (Architecture <BEHAVIORAL>).
-WARNING:Xst:752 - "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf" line 249: Unconnected input port 'reset_alarma' of component 'alarma' is tied to default value.
+Analyzing Entity <Esquema> in library <work> (Architecture <behavioral>).
 Entity <Esquema> analyzed. Unit <Esquema> generated.
-
-Analyzing Entity <Contador_reloj> in library <work> (Architecture <behavioral>).
-Entity <Contador_reloj> analyzed. Unit <Contador_reloj> generated.
 
 Analyzing Entity <alarma> in library <work> (Architecture <behavioral>).
 WARNING:Xst:819 - "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd" line 66: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
-   <reset_alarma>, <min_u>, <min_d>, <hr_u>, <hr_d>, <AM_PM>
+   <min_u>, <min_d>, <hr_u>, <hr_d>, <AM_PM>
 Entity <alarma> analyzed. Unit <alarma> generated.
+
+Analyzing Entity <Contador_reloj> in library <work> (Architecture <behavioral>).
+Entity <Contador_reloj> analyzed. Unit <Contador_reloj> generated.
 
 
 =========================================================================
@@ -143,6 +142,22 @@ Entity <alarma> analyzed. Unit <alarma> generated.
 =========================================================================
 
 Performing bidirectional port resolution...
+
+Synthesizing Unit <alarma>.
+    Related source file is "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd".
+WARNING:Xst:647 - Input <reset_alarma> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <A_tmp_M> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <A_tmp_H> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <A_tmp_AM_PM> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 4-bit comparator equal for signal <flag_0$cmp_eq0000> created at line 71.
+    Found 4-bit comparator equal for signal <flag_1$cmp_eq0000> created at line 77.
+    Found 4-bit comparator equal for signal <flag_2$cmp_eq0000> created at line 83.
+    Found 4-bit comparator equal for signal <flag_3$cmp_eq0000> created at line 89.
+    Found 1-bit xor2 for signal <flag_4$xor0000> created at line 95.
+    Summary:
+	inferred   4 Comparator(s).
+Unit <alarma> synthesized.
+
 
 Synthesizing Unit <Contador_reloj>.
     Related source file is "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd".
@@ -161,27 +176,13 @@ WARNING:Xst:1780 - Signal <flag_reloj<0>> is never used or assigned. This unconn
 Unit <Contador_reloj> synthesized.
 
 
-Synthesizing Unit <alarma>.
-    Related source file is "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd".
-WARNING:Xst:1780 - Signal <A_tmp_M> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:1780 - Signal <A_tmp_H> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:1780 - Signal <A_tmp_AM_PM> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-    Found 4-bit comparator equal for signal <flag_0$cmp_eq0000> created at line 68.
-    Found 4-bit comparator equal for signal <flag_1$cmp_eq0000> created at line 74.
-    Found 4-bit comparator equal for signal <flag_2$cmp_eq0000> created at line 79.
-    Found 4-bit comparator equal for signal <flag_3$cmp_eq0000> created at line 84.
-    Found 1-bit xor2 for signal <flag_4$xor0000> created at line 89.
-    Summary:
-	inferred   4 Comparator(s).
-Unit <alarma> synthesized.
-
-
 Synthesizing Unit <Esquema>.
     Related source file is "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf".
-WARNING:Xst:653 - Signal <XLXI_2_clk_doce_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
-WARNING:Xst:653 - Signal <XLXI_2_areset_min_u_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
-WARNING:Xst:653 - Signal <XLXI_2_areset_hr_d_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
-WARNING:Xst:653 - Signal <XLXI_2_areset_am_pm_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_clk_doce_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_areset_min_u_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_areset_hr_d_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_18_areset_am_pm_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_17_reset_alarma_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
 Unit <Esquema> synthesized.
 
 
@@ -320,15 +321,15 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------+--------------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)          | Load  |
------------------------------------+--------------------------------+-------+
-RELOJ                              | BUFGP                          | 5     |
-XLXI_2/flag_reloj_1                | NONE(XLXI_2/cnt_tmp_min_d_3)   | 5     |
-XLXI_2/flag_reloj_3                | NONE(XLXI_2/cnt_tmp_hr_d_3)    | 4     |
-XLXI_2/flag_reloj_2                | NONE(XLXI_2/cnt_tmp_hr_u_3)    | 5     |
-XLXN_68(XLXI_16:O)                 | NONE(*)(XLXI_2/cnt_tmp_am_pm_1)| 2     |
------------------------------------+--------------------------------+-------+
+-----------------------------------+---------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)           | Load  |
+-----------------------------------+---------------------------------+-------+
+RELOJ                              | BUFGP                           | 5     |
+XLXI_18/flag_reloj_1               | NONE(XLXI_18/cnt_tmp_min_d_3)   | 5     |
+XLXI_18/flag_reloj_3               | NONE(XLXI_18/cnt_tmp_hr_d_3)    | 4     |
+XLXI_18/flag_reloj_2               | NONE(XLXI_18/cnt_tmp_hr_u_3)    | 5     |
+XLXN_68(XLXI_16:O)                 | NONE(*)(XLXI_18/cnt_tmp_am_pm_1)| 2     |
+-----------------------------------+---------------------------------+-------+
 (*) This 1 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
@@ -336,12 +337,12 @@ INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered
 
 Asynchronous Control Signals Information:
 ----------------------------------------
------------------------------------+-----------------------------+-------+
-Control Signal                     | Buffer(FF name)             | Load  |
------------------------------------+-----------------------------+-------+
-N0(XST_GND:G)                      | NONE(XLXI_2/cnt_tmp_am_pm_0)| 10    |
-XLXN_68(XLXI_16:O)                 | NONE(XLXI_2/cnt_tmp_hr_u_0) | 8     |
------------------------------------+-----------------------------+-------+
+-----------------------------------+------------------------------+-------+
+Control Signal                     | Buffer(FF name)              | Load  |
+-----------------------------------+------------------------------+-------+
+N0(XST_GND:G)                      | NONE(XLXI_18/cnt_tmp_am_pm_0)| 10    |
+XLXN_68(XLXI_16:O)                 | NONE(XLXI_18/cnt_tmp_hr_u_0) | 8     |
+-----------------------------------+------------------------------+-------+
 
 Timing Summary:
 ---------------
@@ -362,88 +363,88 @@ Timing constraint: Default period analysis for Clock 'RELOJ'
   Total number of paths / destination ports: 16 / 5
 -------------------------------------------------------------------------
 Delay:               2.868ns (Levels of Logic = 1)
-  Source:            XLXI_2/cnt_tmp_min_u_0 (FF)
-  Destination:       XLXI_2/cnt_tmp_min_u_0 (FF)
+  Source:            XLXI_18/cnt_tmp_min_u_0 (FF)
+  Destination:       XLXI_18/cnt_tmp_min_u_0 (FF)
   Source Clock:      RELOJ rising
   Destination Clock: RELOJ rising
 
-  Data Path: XLXI_2/cnt_tmp_min_u_0 to XLXI_2/cnt_tmp_min_u_0
+  Data Path: XLXI_18/cnt_tmp_min_u_0 to XLXI_18/cnt_tmp_min_u_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              7   0.626   0.906  XLXI_2/cnt_tmp_min_u_0 (XLXI_2/cnt_tmp_min_u_0)
-     INV:I->O              1   0.479   0.681  XLXI_2/Mcount_cnt_tmp_min_u_xor<0>11_INV_0 (XLXI_2/Mcount_cnt_tmp_min_u)
-     FDC:D                     0.176          XLXI_2/cnt_tmp_min_u_0
+     FDC:C->Q              7   0.626   0.906  XLXI_18/cnt_tmp_min_u_0 (XLXI_18/cnt_tmp_min_u_0)
+     INV:I->O              1   0.479   0.681  XLXI_18/Mcount_cnt_tmp_min_u_xor<0>11_INV_0 (XLXI_18/Mcount_cnt_tmp_min_u)
+     FDC:D                     0.176          XLXI_18/cnt_tmp_min_u_0
     ----------------------------------------
     Total                      2.868ns (1.281ns logic, 1.587ns route)
                                        (44.7% logic, 55.3% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_2/flag_reloj_1'
+Timing constraint: Default period analysis for Clock 'XLXI_18/flag_reloj_1'
   Clock period: 3.665ns (frequency: 272.855MHz)
   Total number of paths / destination ports: 17 / 5
 -------------------------------------------------------------------------
 Delay:               3.665ns (Levels of Logic = 2)
-  Source:            XLXI_2/cnt_tmp_min_d_0 (FF)
-  Destination:       XLXI_2/flag_reloj_2 (FF)
-  Source Clock:      XLXI_2/flag_reloj_1 rising
-  Destination Clock: XLXI_2/flag_reloj_1 rising
+  Source:            XLXI_18/cnt_tmp_min_d_0 (FF)
+  Destination:       XLXI_18/flag_reloj_2 (FF)
+  Source Clock:      XLXI_18/flag_reloj_1 rising
+  Destination Clock: XLXI_18/flag_reloj_1 rising
 
-  Data Path: XLXI_2/cnt_tmp_min_d_0 to XLXI_2/flag_reloj_2
+  Data Path: XLXI_18/cnt_tmp_min_d_0 to XLXI_18/flag_reloj_2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              7   0.626   1.201  XLXI_2/cnt_tmp_min_d_0 (XLXI_2/cnt_tmp_min_d_0)
-     LUT2:I0->O            1   0.479   0.704  XLXI_2/cnt_tmp_min_d_and0000_SW0 (N11)
-     LUT4:I3->O            1   0.479   0.000  XLXI_2/cnt_tmp_min_d_and0000 (XLXI_2/cnt_tmp_min_d_and0000)
-     FDE:D                     0.176          XLXI_2/flag_reloj_2
+     FDC:C->Q              7   0.626   1.201  XLXI_18/cnt_tmp_min_d_0 (XLXI_18/cnt_tmp_min_d_0)
+     LUT2:I0->O            1   0.479   0.704  XLXI_18/cnt_tmp_min_d_and0000_SW0 (N11)
+     LUT4:I3->O            1   0.479   0.000  XLXI_18/cnt_tmp_min_d_and0000 (XLXI_18/cnt_tmp_min_d_and0000)
+     FDE:D                     0.176          XLXI_18/flag_reloj_2
     ----------------------------------------
     Total                      3.665ns (1.760ns logic, 1.905ns route)
                                        (48.0% logic, 52.0% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_2/flag_reloj_3'
+Timing constraint: Default period analysis for Clock 'XLXI_18/flag_reloj_3'
   Clock period: 2.868ns (frequency: 348.681MHz)
   Total number of paths / destination ports: 12 / 4
 -------------------------------------------------------------------------
 Delay:               2.868ns (Levels of Logic = 1)
-  Source:            XLXI_2/cnt_tmp_hr_d_0 (FF)
-  Destination:       XLXI_2/cnt_tmp_hr_d_0 (FF)
-  Source Clock:      XLXI_2/flag_reloj_3 rising
-  Destination Clock: XLXI_2/flag_reloj_3 rising
+  Source:            XLXI_18/cnt_tmp_hr_d_0 (FF)
+  Destination:       XLXI_18/cnt_tmp_hr_d_0 (FF)
+  Source Clock:      XLXI_18/flag_reloj_3 rising
+  Destination Clock: XLXI_18/flag_reloj_3 rising
 
-  Data Path: XLXI_2/cnt_tmp_hr_d_0 to XLXI_2/cnt_tmp_hr_d_0
+  Data Path: XLXI_18/cnt_tmp_hr_d_0 to XLXI_18/cnt_tmp_hr_d_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              7   0.626   0.906  XLXI_2/cnt_tmp_hr_d_0 (XLXI_2/cnt_tmp_hr_d_0)
-     INV:I->O              1   0.479   0.681  XLXI_2/Mcount_cnt_tmp_hr_d_xor<0>11_INV_0 (XLXI_2/Mcount_cnt_tmp_hr_d)
-     FDC:D                     0.176          XLXI_2/cnt_tmp_hr_d_0
+     FDC:C->Q              7   0.626   0.906  XLXI_18/cnt_tmp_hr_d_0 (XLXI_18/cnt_tmp_hr_d_0)
+     INV:I->O              1   0.479   0.681  XLXI_18/Mcount_cnt_tmp_hr_d_xor<0>11_INV_0 (XLXI_18/Mcount_cnt_tmp_hr_d)
+     FDC:D                     0.176          XLXI_18/cnt_tmp_hr_d_0
     ----------------------------------------
     Total                      2.868ns (1.281ns logic, 1.587ns route)
                                        (44.7% logic, 55.3% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_2/flag_reloj_2'
+Timing constraint: Default period analysis for Clock 'XLXI_18/flag_reloj_2'
   Clock period: 7.052ns (frequency: 141.811MHz)
   Total number of paths / destination ports: 20 / 6
 -------------------------------------------------------------------------
 Delay:               7.052ns (Levels of Logic = 4)
-  Source:            XLXI_2/cnt_tmp_hr_u_2 (FF)
-  Destination:       XLXI_2/flag_reloj_3 (FF)
-  Source Clock:      XLXI_2/flag_reloj_2 rising
-  Destination Clock: XLXI_2/flag_reloj_2 rising
+  Source:            XLXI_18/cnt_tmp_hr_u_2 (FF)
+  Destination:       XLXI_18/flag_reloj_3 (FF)
+  Source Clock:      XLXI_18/flag_reloj_2 rising
+  Destination Clock: XLXI_18/flag_reloj_2 rising
 
-  Data Path: XLXI_2/cnt_tmp_hr_u_2 to XLXI_2/flag_reloj_3
+  Data Path: XLXI_18/cnt_tmp_hr_u_2 to XLXI_18/flag_reloj_3
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              7   0.626   0.906  XLXI_2/cnt_tmp_hr_u_2 (XLXI_2/cnt_tmp_hr_u_2)
+     FDC:C->Q              7   0.626   0.906  XLXI_18/cnt_tmp_hr_u_2 (XLXI_18/cnt_tmp_hr_u_2)
      INV:I->O              1   0.479   0.681  XLXI_5 (XLXN_31)
      AND4:I1->O            1   0.479   0.681  XLXI_8 (XLXN_59)
      AND2:I0->O           11   0.479   0.972  XLXI_16 (XLXN_68)
-     INV:I->O              2   0.479   0.745  XLXI_2/areset_hr_u_inv1_INV_0 (XLXI_2/areset_hr_u_inv)
-     FDE:CE                    0.524          XLXI_2/flag_reloj_3
+     INV:I->O              2   0.479   0.745  XLXI_18/areset_hr_u_inv1_INV_0 (XLXI_18/areset_hr_u_inv)
+     FDE:CE                    0.524          XLXI_18/flag_reloj_3
     ----------------------------------------
     Total                      7.052ns (3.066ns logic, 3.986ns route)
                                        (43.5% logic, 56.5% route)
@@ -454,36 +455,36 @@ Timing constraint: Default period analysis for Clock 'XLXN_68'
   Total number of paths / destination ports: 4 / 2
 -------------------------------------------------------------------------
 Delay:               2.355ns (Levels of Logic = 1)
-  Source:            XLXI_2/cnt_tmp_am_pm_0 (FF)
-  Destination:       XLXI_2/cnt_tmp_am_pm_1 (FF)
+  Source:            XLXI_18/cnt_tmp_am_pm_0 (FF)
+  Destination:       XLXI_18/cnt_tmp_am_pm_1 (FF)
   Source Clock:      XLXN_68 rising
   Destination Clock: XLXN_68 rising
 
-  Data Path: XLXI_2/cnt_tmp_am_pm_0 to XLXI_2/cnt_tmp_am_pm_1
+  Data Path: XLXI_18/cnt_tmp_am_pm_0 to XLXI_18/cnt_tmp_am_pm_1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              4   0.626   1.074  XLXI_2/cnt_tmp_am_pm_0 (XLXI_2/cnt_tmp_am_pm_0)
-     LUT2:I0->O            1   0.479   0.000  XLXI_2/Mcount_cnt_tmp_am_pm_xor<1>11 (XLXI_2/Mcount_cnt_tmp_am_pm1)
-     FDC:D                     0.176          XLXI_2/cnt_tmp_am_pm_1
+     FDC:C->Q              4   0.626   1.074  XLXI_18/cnt_tmp_am_pm_0 (XLXI_18/cnt_tmp_am_pm_0)
+     LUT2:I0->O            1   0.479   0.000  XLXI_18/Mcount_cnt_tmp_am_pm_xor<1>11 (XLXI_18/Mcount_cnt_tmp_am_pm1)
+     FDC:D                     0.176          XLXI_18/cnt_tmp_am_pm_1
     ----------------------------------------
     Total                      2.355ns (1.281ns logic, 1.074ns route)
                                        (54.4% logic, 45.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_2/flag_reloj_1'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_18/flag_reloj_1'
   Total number of paths / destination ports: 8 / 5
 -------------------------------------------------------------------------
 Offset:              8.930ns (Levels of Logic = 11)
-  Source:            XLXI_2/cnt_tmp_min_d_3 (FF)
+  Source:            XLXI_18/cnt_tmp_min_d_3 (FF)
   Destination:       Alarm (PAD)
-  Source Clock:      XLXI_2/flag_reloj_1 rising
+  Source Clock:      XLXI_18/flag_reloj_1 rising
 
-  Data Path: XLXI_2/cnt_tmp_min_d_3 to Alarm
+  Data Path: XLXI_18/cnt_tmp_min_d_3 to Alarm
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              6   0.626   1.148  XLXI_2/cnt_tmp_min_d_3 (XLXI_2/cnt_tmp_min_d_3)
+     FDC:C->Q              6   0.626   1.148  XLXI_18/cnt_tmp_min_d_3 (XLXI_18/cnt_tmp_min_d_3)
      LUT2:I0->O            1   0.479   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_lut<0> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_lut<0>)
      MUXCY:S->O            1   0.435   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<0> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<0>)
      MUXCY:CI->O           1   0.056   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<1> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<1>)
@@ -504,15 +505,15 @@ Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXN_68'
   Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
 Offset:              8.344ns (Levels of Logic = 4)
-  Source:            XLXI_2/cnt_tmp_am_pm_0 (FF)
+  Source:            XLXI_18/cnt_tmp_am_pm_0 (FF)
   Destination:       Alarm (PAD)
   Source Clock:      XLXN_68 rising
 
-  Data Path: XLXI_2/cnt_tmp_am_pm_0 to Alarm
+  Data Path: XLXI_18/cnt_tmp_am_pm_0 to Alarm
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              4   0.626   0.949  XLXI_2/cnt_tmp_am_pm_0 (XLXI_2/cnt_tmp_am_pm_0)
+     FDC:C->Q              4   0.626   0.949  XLXI_18/cnt_tmp_am_pm_0 (XLXI_18/cnt_tmp_am_pm_0)
      LUT4:I1->O            1   0.479   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_lut<7> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_lut<7>)
      MUXCY:S->O            1   0.435   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<7> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<7>)
      MUXCY:CI->O           1   0.265   0.681  XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<8> (Alarm_OBUF)
@@ -522,19 +523,19 @@ Offset:              8.344ns (Levels of Logic = 4)
                                        (80.5% logic, 19.5% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_2/flag_reloj_3'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_18/flag_reloj_3'
   Total number of paths / destination ports: 8 / 5
 -------------------------------------------------------------------------
 Offset:              8.470ns (Levels of Logic = 6)
-  Source:            XLXI_2/cnt_tmp_hr_d_0 (FF)
+  Source:            XLXI_18/cnt_tmp_hr_d_0 (FF)
   Destination:       Alarm (PAD)
-  Source Clock:      XLXI_2/flag_reloj_3 rising
+  Source Clock:      XLXI_18/flag_reloj_3 rising
 
-  Data Path: XLXI_2/cnt_tmp_hr_d_0 to Alarm
+  Data Path: XLXI_18/cnt_tmp_hr_d_0 to Alarm
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              7   0.626   0.965  XLXI_2/cnt_tmp_hr_d_0 (XLXI_2/cnt_tmp_hr_d_0)
+     FDC:C->Q              7   0.626   0.965  XLXI_18/cnt_tmp_hr_d_0 (XLXI_18/cnt_tmp_hr_d_0)
      LUT4:I2->O            1   0.479   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_lut<5> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_lut<5>)
      MUXCY:S->O            1   0.435   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<5> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<5>)
      MUXCY:CI->O           1   0.056   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<6> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<6>)
@@ -550,15 +551,15 @@ Timing constraint: Default OFFSET OUT AFTER for Clock 'RELOJ'
   Total number of paths / destination ports: 8 / 5
 -------------------------------------------------------------------------
 Offset:              8.653ns (Levels of Logic = 6)
-  Source:            XLXI_2/cnt_tmp_min_u_2 (FF)
+  Source:            XLXI_18/cnt_tmp_min_u_2 (FF)
   Destination:       Alarm (PAD)
   Source Clock:      RELOJ rising
 
-  Data Path: XLXI_2/cnt_tmp_min_u_2 to Alarm
+  Data Path: XLXI_18/cnt_tmp_min_u_2 to Alarm
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              6   0.626   1.148  XLXI_2/cnt_tmp_min_u_2 (XLXI_2/cnt_tmp_min_u_2)
+     FDC:C->Q              6   0.626   1.148  XLXI_18/cnt_tmp_min_u_2 (XLXI_18/cnt_tmp_min_u_2)
      LUT4:I0->O            1   0.479   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_lut<5> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_lut<5>)
      MUXCY:S->O            1   0.435   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<5> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<5>)
      MUXCY:CI->O           1   0.056   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<6> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<6>)
@@ -570,19 +571,19 @@ Offset:              8.653ns (Levels of Logic = 6)
                                        (78.9% logic, 21.1% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_2/flag_reloj_2'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_18/flag_reloj_2'
   Total number of paths / destination ports: 8 / 5
 -------------------------------------------------------------------------
 Offset:              8.707ns (Levels of Logic = 10)
-  Source:            XLXI_2/cnt_tmp_hr_u_0 (FF)
+  Source:            XLXI_18/cnt_tmp_hr_u_0 (FF)
   Destination:       Alarm (PAD)
-  Source Clock:      XLXI_2/flag_reloj_2 rising
+  Source Clock:      XLXI_18/flag_reloj_2 rising
 
-  Data Path: XLXI_2/cnt_tmp_hr_u_0 to Alarm
+  Data Path: XLXI_18/cnt_tmp_hr_u_0 to Alarm
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              8   0.626   0.980  XLXI_2/cnt_tmp_hr_u_0 (XLXI_2/cnt_tmp_hr_u_0)
+     FDC:C->Q              8   0.626   0.980  XLXI_18/cnt_tmp_hr_u_0 (XLXI_18/cnt_tmp_hr_u_0)
      LUT4:I2->O            1   0.479   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_lut<1> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_lut<1>)
      MUXCY:S->O            1   0.435   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<1> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<1>)
      MUXCY:CI->O           1   0.056   0.000  XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<2> (XLXI_17/senal_tmp_0_cmp_eq0000_wg_cy<2>)
@@ -628,14 +629,14 @@ Delay:               8.723ns (Levels of Logic = 12)
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.70 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 24.57 secs
  
 --> 
 
-Total memory usage is 247848 kilobytes
+Total memory usage is 247876 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   12 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
 Number of infos    :    1 (   0 filtered)
 

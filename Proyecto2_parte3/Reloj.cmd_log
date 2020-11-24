@@ -1,2 +1,0 @@
-vhdtdtfi -lib work Reloj.vhd -prj Proyecto2_parte3 -o Reloj.spl -module Reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3 Reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.sym 

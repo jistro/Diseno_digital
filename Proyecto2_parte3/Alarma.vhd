@@ -26,20 +26,22 @@ entity alarma is
     A_M_D       : IN  STD_LOGIC_VECTOR(3 DOWNTO 0); 
     A_H_U       : IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
     A_H_D       : IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
-    Senal_A     : OUT STD_LOGIC
+    Senal_A     : OUT STD_LOGIC;
+	 reset_alarma: IN  STD_LOGIC
     );
 end alarma;
  
 architecture Behavioral of alarma is
-    signal min_u: 	STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
-    signal min_d: 	STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
-    signal hr_u: 	STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
-    signal hr_d: 	STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
-    signal AM_PM: 	STD_LOGIC_VECTOR(0 DOWNTO 0) 	:= "0";
-    signal A_tmp_M: 	    STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
-    signal A_tmp_H: 	    STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
-	 signal senal_tmp: 	STD_LOGIC_VECTOR(0 DOWNTO 0) 	:= "0";
+    signal min_u: 			STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
+    signal min_d: 			STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
+    signal hr_u: 				STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
+    signal hr_d: 				STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
+    signal AM_PM: 			STD_LOGIC_VECTOR(0 DOWNTO 0) 	:= "0";
+    signal A_tmp_M: 	    	STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
+    signal A_tmp_H: 	    	STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
+	 signal senal_tmp: 		STD_LOGIC_VECTOR(0 DOWNTO 0) 	:= "0";
     signal A_tmp_AM_PM: 	STD_LOGIC_VECTOR(0 DOWNTO 0) 	:= "0";
+	 signal flag: 	    		STD_LOGIC_VECTOR(4 DOWNTO 0) 	:= "00000";
 	 
 begin
     min_u(0)   <=  M_U_0; 
@@ -58,15 +60,49 @@ begin
     hr_d(1)    <=  H_D_1; 
     hr_d(2)    <=  H_D_2; 
     hr_d(3)    <=  H_D_3;
-    AM_PM(0)      <=  upd_am_pm;
+    AM_PM(0)   <=  upd_am_pm;
 
 
-    alarma: process (A_AM_PM, A_M_U, A_M_D, A_H_U, A_H_D) begin
-        if (min_u = A_M_U) and (min_d = A_M_D) and (hr_u = A_H_U) and (hr_d = A_H_D) and (AM_PM(0) = A_AM_PM) then
-            senal_tmp(0) <= '1';
-        else
-            senal_tmp(0) <= '0';
-        end if;
+    alarma: process (A_AM_PM, A_M_U, A_M_D, A_H_U, A_H_D,reset_alarma) begin
+		if reset_alarma = '1' then
+			senal_tmp(0) <= '0';
+		end if;
+		
+		  if min_u = A_M_U then
+			flag(0) <= '1';
+		  else
+			flag(0) <= '0';
+		  end if;
+		  
+		  if min_d = A_M_D then
+			flag(1) <= '1';
+		  else
+			flag(1) <= '0';
+		  end if;
+		  
+		  if hr_u = A_H_U then
+			flag(2) <= '1';
+		  else
+			flag(2) <= '0';
+		  end if;
+		  
+		  if hr_d = A_H_D then
+			flag(3) <= '1';
+		  else
+			flag(3) <= '0';
+		  end if;
+		  
+		  if AM_PM(0) = A_AM_PM then
+			flag(4) <= '1';
+		  else
+			flag(4) <= '0';
+		  end if;
+		  
+		  if flag = "11111" then
+			senal_tmp(0) <= '1';
+		  else
+			senal_tmp(0) <= '0';
+		  end if;
     end process;
 Senal_A <= senal_tmp(0);
 end Behavioral;

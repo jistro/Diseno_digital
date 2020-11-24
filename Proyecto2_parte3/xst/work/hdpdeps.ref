@@ -1,19 +1,27 @@
-V3 10
+V3 19
 FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd 2020/11/23.12:42:32 P.20131013
-FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd 2020/11/23.19:44:36 P.20131013
-EN work/alarma 1606182280 \
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd 2020/11/23.20:45:55 P.20131013
+EN work/alarma 1606186134 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/alarma/Behavioral 1606182281 \
+AR work/alarma/Behavioral 1606186135 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd \
-      EN work/alarma 1606182280
+      EN work/alarma 1606186134
 FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd 2020/11/23.19:10:06 P.20131013
-EN work/Contador_reloj 1606180214 \
+EN work/Contador_reloj 1606185003 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Contador_reloj/Behavioral 1606180215 \
+AR work/Contador_reloj/Behavioral 1606185004 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd \
-      EN work/Contador_reloj 1606180214
+      EN work/Contador_reloj 1606185003
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf 2020/11/23.19:55:19 P.20131013
+EN work/Esquema 1606185007 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Esquema/BEHAVIORAL 1606185008 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf \
+      EN work/Esquema 1606185007 CP Contador_reloj CP INV CP AND4 CP AND2 CP alarma
 FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd 2020/11/23.00:07:11 P.20131013
 EN work/Reloj 1606111677 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd \

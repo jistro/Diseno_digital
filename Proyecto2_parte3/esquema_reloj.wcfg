@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="esquema" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="45" />
+   <wvobject fp_name="/esquema/reloj" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reloj</obj_property>
+      <obj_property name="ObjectShortName">reloj</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider64" type="divider">
+      <obj_property name="label">Alarma</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_118" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_118[3:0]</obj_property>
+      <obj_property name="ObjectShortName">xlxn_118[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_119" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_119[3:0]</obj_property>
+      <obj_property name="ObjectShortName">xlxn_119[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_120" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_120[3:0]</obj_property>
+      <obj_property name="ObjectShortName">xlxn_120[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_121" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_121[3:0]</obj_property>
+      <obj_property name="ObjectShortName">xlxn_121[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/aampm" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">aampm</obj_property>
+      <obj_property name="ObjectShortName">aampm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/alarm" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alarm</obj_property>
+      <obj_property name="ObjectShortName">alarm</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider65" type="divider">
+      <obj_property name="label">Reloj</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/am_pm" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">am_pm</obj_property>
+      <obj_property name="ObjectShortName">am_pm</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus66" type="vbus" db_ref_id="1">
+      <obj_property name="label">min_u</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/esquema/mu3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mu3</obj_property>
+         <obj_property name="ObjectShortName">mu3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/mu2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mu2</obj_property>
+         <obj_property name="ObjectShortName">mu2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/mu1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mu1</obj_property>
+         <obj_property name="ObjectShortName">mu1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/mu0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mu0</obj_property>
+         <obj_property name="ObjectShortName">mu0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus67" type="vbus" db_ref_id="1">
+      <obj_property name="label">m_d</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/esquema/md3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">md3</obj_property>
+         <obj_property name="ObjectShortName">md3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/md2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">md2</obj_property>
+         <obj_property name="ObjectShortName">md2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/md1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">md1</obj_property>
+         <obj_property name="ObjectShortName">md1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/md0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">md0</obj_property>
+         <obj_property name="ObjectShortName">md0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus69" type="vbus" db_ref_id="1">
+      <obj_property name="label">h_d</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/esquema/hd3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hd3</obj_property>
+         <obj_property name="ObjectShortName">hd3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/hd2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hd2</obj_property>
+         <obj_property name="ObjectShortName">hd2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/hd1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hd1</obj_property>
+         <obj_property name="ObjectShortName">hd1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/hd0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hd0</obj_property>
+         <obj_property name="ObjectShortName">hd0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus68" type="vbus" db_ref_id="1">
+      <obj_property name="label">h_u</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/esquema/hu3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hu3</obj_property>
+         <obj_property name="ObjectShortName">hu3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/hu2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hu2</obj_property>
+         <obj_property name="ObjectShortName">hu2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/hu1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hu1</obj_property>
+         <obj_property name="ObjectShortName">hu1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/esquema/hu0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">hu0</obj_property>
+         <obj_property name="ObjectShortName">hu0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_4</obj_property>
+      <obj_property name="ObjectShortName">xlxn_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_7" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_7</obj_property>
+      <obj_property name="ObjectShortName">xlxn_7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_9" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_9</obj_property>
+      <obj_property name="ObjectShortName">xlxn_9</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_30" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_30</obj_property>
+      <obj_property name="ObjectShortName">xlxn_30</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_31" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_31</obj_property>
+      <obj_property name="ObjectShortName">xlxn_31</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_57" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_57</obj_property>
+      <obj_property name="ObjectShortName">xlxn_57</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_58" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_58</obj_property>
+      <obj_property name="ObjectShortName">xlxn_58</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_59" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_59</obj_property>
+      <obj_property name="ObjectShortName">xlxn_59</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxn_68" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_68</obj_property>
+      <obj_property name="ObjectShortName">xlxn_68</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/am_pm_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">am_pm_dummy</obj_property>
+      <obj_property name="ObjectShortName">am_pm_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/hu0_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hu0_dummy</obj_property>
+      <obj_property name="ObjectShortName">hu0_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/hu1_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hu1_dummy</obj_property>
+      <obj_property name="ObjectShortName">hu1_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/hu2_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hu2_dummy</obj_property>
+      <obj_property name="ObjectShortName">hu2_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/hu3_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hu3_dummy</obj_property>
+      <obj_property name="ObjectShortName">hu3_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/hd0_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hd0_dummy</obj_property>
+      <obj_property name="ObjectShortName">hd0_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/hd1_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hd1_dummy</obj_property>
+      <obj_property name="ObjectShortName">hd1_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/hd2_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hd2_dummy</obj_property>
+      <obj_property name="ObjectShortName">hd2_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/hd3_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hd3_dummy</obj_property>
+      <obj_property name="ObjectShortName">hd3_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/mu0_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mu0_dummy</obj_property>
+      <obj_property name="ObjectShortName">mu0_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/mu1_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mu1_dummy</obj_property>
+      <obj_property name="ObjectShortName">mu1_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/mu2_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mu2_dummy</obj_property>
+      <obj_property name="ObjectShortName">mu2_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/mu3_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mu3_dummy</obj_property>
+      <obj_property name="ObjectShortName">mu3_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/md0_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">md0_dummy</obj_property>
+      <obj_property name="ObjectShortName">md0_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/md1_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">md1_dummy</obj_property>
+      <obj_property name="ObjectShortName">md1_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/md2_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">md2_dummy</obj_property>
+      <obj_property name="ObjectShortName">md2_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/md3_dummy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">md3_dummy</obj_property>
+      <obj_property name="ObjectShortName">md3_dummy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxi_2_areset_am_pm_opensignal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxi_2_areset_am_pm_opensignal</obj_property>
+      <obj_property name="ObjectShortName">xlxi_2_areset_am_pm_opensignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxi_2_areset_hr_d_opensignal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxi_2_areset_hr_d_opensignal</obj_property>
+      <obj_property name="ObjectShortName">xlxi_2_areset_hr_d_opensignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxi_2_areset_min_u_opensignal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxi_2_areset_min_u_opensignal</obj_property>
+      <obj_property name="ObjectShortName">xlxi_2_areset_min_u_opensignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxi_2_clk_doce_opensignal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxi_2_clk_doce_opensignal</obj_property>
+      <obj_property name="ObjectShortName">xlxi_2_clk_doce_opensignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/esquema/xlxi_17_reset_alarma_opensignal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxi_17_reset_alarma_opensignal</obj_property>
+      <obj_property name="ObjectShortName">xlxi_17_reset_alarma_opensignal</obj_property>
+   </wvobject>
+</wave_config>

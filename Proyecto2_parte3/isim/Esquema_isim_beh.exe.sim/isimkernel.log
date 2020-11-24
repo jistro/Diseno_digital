@@ -2,27 +2,9 @@ Command line:
    Esquema_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  58683
+     -socket  50719
 
-Mon Nov 23 19:55:32 2020
+Mon Nov 23 21:07:16 2020
 
 
- Elaboration Time: 0.109375 sec
-
- Current Memory Usage: 361.996 Meg
-
- Total Signals          : 165
- Total Nets             : 141
- Total Signal Drivers   : 70
- Total Blocks           : 14
- Total Primitive Blocks : 13
- Total Processes        : 67
- Total Traceable Variables  : 15
- Total Scalar Nets and Variables : 642
-
- Total Simulation Time: 0.1875 sec
-
- Current Memory Usage: 361.996 Meg
-
-Mon Nov 23 19:58:58 2020
-
+ Elaboration Time: 0.0625 sec

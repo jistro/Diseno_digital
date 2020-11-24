@@ -6,13 +6,6 @@
         <trait edittrait="all:0" />
     </attr>
     <netlist>
-        <signal name="XLXN_28" />
-        <signal name="XLXN_29" />
-        <signal name="XLXN_32" />
-        <signal name="XLXN_62" />
-        <signal name="XLXN_63" />
-        <signal name="XLXN_66" />
-        <signal name="XLXN_67" />
         <signal name="Alarm" />
         <signal name="XLXN_4" />
         <signal name="RELOJ" />
@@ -42,7 +35,6 @@
         <signal name="MU0" />
         <signal name="MU1" />
         <signal name="AAMPM" />
-        <signal name="XLXN_117" />
         <signal name="XLXN_118(3:0)" />
         <signal name="XLXN_119(3:0)" />
         <signal name="XLXN_120(3:0)" />
@@ -138,8 +130,8 @@
             <line x2="64" y1="-48" y2="-144" x1="64" />
         </blockdef>
         <blockdef name="alarma">
-            <timestamp>2020-11-24T1:44:45</timestamp>
-            <rect width="256" x="64" y="-1408" height="1408" />
+            <timestamp>2020-11-24T2:48:59</timestamp>
+            <line x2="0" y1="32" y2="32" x1="64" />
             <line x2="0" y1="-1376" y2="-1376" x1="64" />
             <line x2="0" y1="-1312" y2="-1312" x1="64" />
             <line x2="0" y1="-1248" y2="-1248" x1="64" />
@@ -167,40 +159,8 @@
             <rect width="64" x="0" y="-44" height="24" />
             <line x2="0" y1="-32" y2="-32" x1="64" />
             <line x2="384" y1="-1376" y2="-1376" x1="320" />
+            <rect width="256" x="64" y="-1408" height="1472" />
         </blockdef>
-        <block symbolname="Contador_reloj" name="XLXI_2">
-            <blockpin signalname="RELOJ" name="clk_min_u" />
-            <blockpin signalname="XLXN_4" name="clk_min_d" />
-            <blockpin signalname="XLXN_7" name="clk_hr_u" />
-            <blockpin signalname="XLXN_9" name="clk_hr_d" />
-            <blockpin signalname="XLXN_68" name="clk_am_pm" />
-            <blockpin name="clk_doce" />
-            <blockpin name="areset_min_u" />
-            <blockpin signalname="XLXN_68" name="areset_min_d" />
-            <blockpin signalname="XLXN_68" name="areset_hr_u" />
-            <blockpin name="areset_hr_d" />
-            <blockpin name="areset_am_pm" />
-            <blockpin signalname="XLXN_4" name="upd_m_d" />
-            <blockpin signalname="XLXN_7" name="upd_h_u" />
-            <blockpin signalname="XLXN_9" name="upd_h_d" />
-            <blockpin signalname="AM_PM" name="upd_am_pm" />
-            <blockpin signalname="MU0" name="M_U_0" />
-            <blockpin signalname="MU1" name="M_U_1" />
-            <blockpin signalname="MU2" name="M_U_2" />
-            <blockpin signalname="MU3" name="M_U_3" />
-            <blockpin signalname="MD0" name="M_D_0" />
-            <blockpin signalname="MD1" name="M_D_1" />
-            <blockpin signalname="MD2" name="M_D_2" />
-            <blockpin signalname="MD3" name="M_D_3" />
-            <blockpin signalname="HU0" name="H_U_0" />
-            <blockpin signalname="HU1" name="H_U_1" />
-            <blockpin signalname="HU2" name="H_U_2" />
-            <blockpin signalname="HU3" name="H_U_3" />
-            <blockpin signalname="HD0" name="H_D_0" />
-            <blockpin signalname="HD1" name="H_D_1" />
-            <blockpin signalname="HD2" name="H_D_2" />
-            <blockpin signalname="HD3" name="H_D_3" />
-        </block>
         <block symbolname="inv" name="XLXI_7">
             <blockpin signalname="HD1" name="I" />
             <blockpin signalname="XLXN_57" name="O" />
@@ -254,6 +214,40 @@
             <blockpin signalname="XLXN_120(3:0)" name="A_H_U(3:0)" />
             <blockpin signalname="XLXN_121(3:0)" name="A_H_D(3:0)" />
             <blockpin signalname="Alarm" name="Senal_A" />
+            <blockpin name="reset_alarma" />
+        </block>
+        <block symbolname="Contador_reloj" name="XLXI_18">
+            <blockpin signalname="RELOJ" name="clk_min_u" />
+            <blockpin signalname="XLXN_4" name="clk_min_d" />
+            <blockpin signalname="XLXN_7" name="clk_hr_u" />
+            <blockpin signalname="XLXN_9" name="clk_hr_d" />
+            <blockpin signalname="XLXN_68" name="clk_am_pm" />
+            <blockpin name="clk_doce" />
+            <blockpin name="areset_min_u" />
+            <blockpin signalname="XLXN_68" name="areset_min_d" />
+            <blockpin signalname="XLXN_68" name="areset_hr_u" />
+            <blockpin name="areset_hr_d" />
+            <blockpin name="areset_am_pm" />
+            <blockpin signalname="XLXN_4" name="upd_m_d" />
+            <blockpin signalname="XLXN_7" name="upd_h_u" />
+            <blockpin signalname="XLXN_9" name="upd_h_d" />
+            <blockpin signalname="AM_PM" name="upd_am_pm" />
+            <blockpin signalname="MU0" name="M_U_0" />
+            <blockpin signalname="MU1" name="M_U_1" />
+            <blockpin signalname="MU2" name="M_U_2" />
+            <blockpin signalname="MU3" name="M_U_3" />
+            <blockpin signalname="MD0" name="M_D_0" />
+            <blockpin signalname="MD1" name="M_D_1" />
+            <blockpin signalname="MD2" name="M_D_2" />
+            <blockpin signalname="MD3" name="M_D_3" />
+            <blockpin signalname="HU0" name="H_U_0" />
+            <blockpin signalname="HU1" name="H_U_1" />
+            <blockpin signalname="HU2" name="H_U_2" />
+            <blockpin signalname="HU3" name="H_U_3" />
+            <blockpin signalname="HD0" name="H_D_0" />
+            <blockpin signalname="HD1" name="H_D_1" />
+            <blockpin signalname="HD2" name="H_D_2" />
+            <blockpin signalname="HD3" name="H_D_3" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="3520" height="2720">
@@ -268,8 +262,6 @@
         <branch name="RELOJ">
             <wire x2="256" y1="160" y2="160" x1="224" />
         </branch>
-        <instance x="256" y="1408" name="XLXI_2" orien="R0">
-        </instance>
         <branch name="XLXN_7">
             <wire x2="704" y1="48" y2="48" x1="48" />
             <wire x2="704" y1="48" y2="224" x1="704" />
@@ -404,8 +396,7 @@
         </instance>
         <branch name="AM_PM">
             <wire x2="656" y1="352" y2="352" x1="640" />
-            <wire x2="2136" y1="352" y2="352" x1="656" />
-            <wire x2="2144" y1="352" y2="352" x1="2136" />
+            <wire x2="2144" y1="352" y2="352" x1="656" />
             <wire x2="2144" y1="352" y2="1984" x1="2144" />
             <wire x2="3376" y1="352" y2="352" x1="2144" />
         </branch>
@@ -464,5 +455,7 @@
             <wire x2="2464" y1="1952" y2="1984" x1="2464" />
         </branch>
         <iomarker fontsize="28" x="2464" y="1952" name="XLXN_121(3:0)" orien="R270" />
+        <instance x="256" y="1408" name="XLXI_18" orien="R0">
+        </instance>
     </sheet>
 </drawing>

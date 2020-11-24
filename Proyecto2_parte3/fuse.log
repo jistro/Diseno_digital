@@ -14,15 +14,15 @@ Compiling package numeric_std
 Compiling package vcomponents
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
-Compiling architecture behavioral of entity Contador_reloj [contador_reloj_default]
 Compiling architecture inv_v of entity INV [inv_default]
 Compiling architecture and4_v of entity AND4 [and4_default]
 Compiling architecture and2_v of entity AND2 [and2_default]
 Compiling architecture behavioral of entity alarma [alarma_default]
+Compiling architecture behavioral of entity Contador_reloj [contador_reloj_default]
 Compiling architecture behavioral of entity esquema
 Time Resolution for simulation is 1ps.
 Waiting for 4 sub-compilation(s) to finish...
 Compiled 17 VHDL Units
 Built simulation executable E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_isim_beh.exe
-Fuse Memory Usage: 50260 KB
-Fuse CPU Usage: 1000 ms
+Fuse Memory Usage: 50200 KB
+Fuse CPU Usage: 921 ms

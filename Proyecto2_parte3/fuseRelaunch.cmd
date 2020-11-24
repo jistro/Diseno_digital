@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_isim_beh.exe" -prj "C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_beh.prj" "work.Esquema" 
+-intstyle "ise" -incremental -o "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_isim_beh.exe" -prj "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_beh.prj" "work.Esquema" 

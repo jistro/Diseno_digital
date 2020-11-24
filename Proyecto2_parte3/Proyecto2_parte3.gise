@@ -39,6 +39,11 @@
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Reloj.stx"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Reloj.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Reloj.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alarma.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="alarma.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="alarma.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="alarma.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="alarma.xst"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
@@ -52,9 +57,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606157062" xil_pn:in_ck="-8896877128600158607" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1606157062">
+    <transform xil_pn:end_ts="1606182841" xil_pn:in_ck="-3527068489455776945" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1606182841">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Alarma.vhd"/>
       <outfile xil_pn:name="Contador_reloj.vhd"/>
       <outfile xil_pn:name="Reloj.vhd"/>
     </transform>
@@ -62,7 +68,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606157067" xil_pn:in_ck="111180316041999869" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5887074564753378506" xil_pn:start_ts="1606157062">
+    <transform xil_pn:end_ts="1606182920" xil_pn:in_ck="111180316041999869" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5887074564753378506" xil_pn:start_ts="1606182918">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Esquema.vhf"/>
@@ -71,14 +77,15 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606157067" xil_pn:in_ck="-2403599284468227052" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1606157067">
+    <transform xil_pn:end_ts="1606182920" xil_pn:in_ck="-3103787106847348174" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1606182920">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Alarma.vhd"/>
       <outfile xil_pn:name="Contador_reloj.vhd"/>
       <outfile xil_pn:name="Esquema.vhf"/>
       <outfile xil_pn:name="Reloj.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1606157083" xil_pn:in_ck="-2403599284468227052" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7507187747129703170" xil_pn:start_ts="1606157067">
+    <transform xil_pn:end_ts="1606182928" xil_pn:in_ck="-3103787106847348174" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7507187747129703170" xil_pn:start_ts="1606182920">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -90,9 +97,11 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1606158217" xil_pn:in_ck="-1197831260707687996" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2983489738455152241" xil_pn:start_ts="1606158214">
+    <transform xil_pn:end_ts="1606182929" xil_pn:in_ck="-1197831260707687996" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2983489738455152241" xil_pn:start_ts="1606182928">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Esquema_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>

@@ -1,3 +1,5 @@
 MODULE Esquema
 	SUBMODULE Contador_reloj
 		INSTANCE XLXI_2
+	SUBMODULE alarma
+		INSTANCE XLXI_17

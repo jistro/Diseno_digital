@@ -19,7 +19,6 @@ entity Contador_reloj is
       upd_h_u     : OUT  STD_LOGIC;
       upd_h_d     : OUT  STD_LOGIC;
       upd_am_pm   : OUT  STD_LOGIC;
-		upd_doce    : OUT  STD_LOGIC;
 		M_U_0 		: OUT  STD_LOGIC;
 		M_U_1 		: OUT  STD_LOGIC;
 		M_U_2 		: OUT  STD_LOGIC;
@@ -44,8 +43,9 @@ architecture Behavioral of Contador_reloj is
     signal cnt_tmp_min_d: 	STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
     signal cnt_tmp_hr_u: 	STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
     signal cnt_tmp_hr_d: 	STD_LOGIC_VECTOR(3 DOWNTO 0) 	:= "0000";
-	 signal flag_reloj: 		STD_LOGIC_VECTOR(5 DOWNTO 0) 	:= "000000";
-	 --flag 0) min_u 1) min_d 2) hrs_u 3) hrs_d 4) am_pm 5)12_hrs
+	 signal cnt_tmp_am_pm: 	STD_LOGIC_VECTOR(1 DOWNTO 0) 	:= "00";
+	 signal flag_reloj: 		STD_LOGIC_VECTOR(4 DOWNTO 0) 	:= "00000";
+	 --flag 0) min_u 1) min_d 2) hrs_u 3) hrs_d 4) am_pm 
 begin
 
     min_unidad: process (areset_min_u, clk_min_u) begin
@@ -76,7 +76,7 @@ begin
         end if;
     end process;
 
-    hr_unidad: process (areset_am_pm, clk_hr_u) begin
+    hr_unidad: process (areset_hr_u, clk_hr_u) begin
         if areset_hr_u = '1' then
             cnt_tmp_hr_u <= "0000";
         elsif rising_edge(clk_hr_u) then
@@ -95,7 +95,7 @@ begin
         if areset_hr_d = '1' then
             cnt_tmp_hr_d <= "0000";
         elsif rising_edge(clk_hr_d) then
-            if cnt_tmp_hr_d = "0001" and flag_reloj(5) = '1' then --cuando detecte reloj a "2"
+            if cnt_tmp_hr_d = "0001" then--cuando detecte reloj a "1"
                 cnt_tmp_hr_d <= "0000";
             else
                 cnt_tmp_hr_d <= cnt_tmp_hr_d + 1;
@@ -103,19 +103,23 @@ begin
 		  end if; 
     end process;
 	 
-	 doce: process begin
-            if cnt_tmp_hr_d = "0001" and cnt_tmp_hr_u = "0010" then --cuando detecte reloj a "2"
-                flag_reloj(5) <= '1';
+	 am_pm: process (areset_am_pm, clk_am_pm) begin
+        if areset_am_pm = '1' then
+            cnt_tmp_am_pm <= "00";
+        elsif rising_edge(clk_am_pm) then
+            if cnt_tmp_am_pm = "10" then--cuando detecte reloj a "2"
+                cnt_tmp_am_pm <= "00";
             else
-                flag_reloj(5) <= '0';
+                cnt_tmp_am_pm <= cnt_tmp_am_pm + 1;
             end if;
+		  end if; 
     end process;
 
    upd_m_d     <=  flag_reloj (1);
    upd_h_u     <=  flag_reloj (2);
    upd_h_d     <=  flag_reloj (3);
-   upd_am_pm   <=  flag_reloj (4);
-	upd_doce   	<=  flag_reloj (5);
+	
+   upd_am_pm   <=  cnt_tmp_am_pm (0);
 	
 	M_U_0 <= cnt_tmp_min_u(0);
 	M_U_1 <= cnt_tmp_min_u(1);

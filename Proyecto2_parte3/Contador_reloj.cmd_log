@@ -18,3 +18,13 @@ vhdtdtfi -lib work Contador_reloj.vhd -prj Proyecto2_parte3 -o Contador_reloj.sp
 spl2sym -intstyle ise -family spartan3 Contador_reloj.spl C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.sym 
 vhdtdtfi -lib work Contador_reloj.vhd -prj Proyecto2_parte3 -o Contador_reloj.spl -module Contador_reloj -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan3 Contador_reloj.spl C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.sym 
+vhdtdtfi -lib work Contador_reloj.vhd -prj Proyecto2_parte3 -o Contador_reloj.spl -module Contador_reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Contador_reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.sym 
+vhdtdtfi -lib work Contador_reloj.vhd -prj Proyecto2_parte3 -o Contador_reloj.spl -module Contador_reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Contador_reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.sym 
+vhdtdtfi -lib work Contador_reloj.vhd -prj Proyecto2_parte3 -o Contador_reloj.spl -module Contador_reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Contador_reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.sym 
+vhdtdtfi -lib work Contador_reloj.vhd -prj Proyecto2_parte3 -o Contador_reloj.spl -module Contador_reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Contador_reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.sym 
+vhdtdtfi -lib work Contador_reloj.vhd -prj Proyecto2_parte3 -o Contador_reloj.spl -module Contador_reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Contador_reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.sym 

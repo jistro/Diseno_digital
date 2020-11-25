@@ -1,0 +1,28 @@
+Command line:
+   Alarma_reloj_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50463
+
+Tue Nov 24 19:51:48 2020
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 361.849 Meg
+
+ Total Signals          : 32
+ Total Nets             : 73
+ Total Signal Drivers   : 37
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 36
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 451
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 676.438 Meg
+
+Tue Nov 24 19:52:51 2020
+

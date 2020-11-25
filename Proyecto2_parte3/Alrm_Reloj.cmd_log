@@ -1,0 +1,6 @@
+vhdtdtfi -lib work Alrm_Reloj.vhd -prj Proyecto2_parte3 -o Alrm_Reloj.spl -module Alrm_Reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Alrm_Reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alrm_Reloj.sym 
+vhdtdtfi -lib work Alrm_Reloj.vhd -prj Proyecto2_parte3 -o Alrm_Reloj.spl -module Alrm_Reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Alrm_Reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alrm_Reloj.sym 
+vhdtdtfi -lib work Alrm_Reloj.vhd -prj Proyecto2_parte3 -o Alrm_Reloj.spl -module Alrm_Reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Alrm_Reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alrm_Reloj.sym 

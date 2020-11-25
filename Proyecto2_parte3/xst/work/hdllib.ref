@@ -1,8 +1,12 @@
 EN reloj NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd sub00/vhpl00 1606111677
-EN alarma NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd sub00/vhpl04 1606188779
-EN contador_reloj NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd sub00/vhpl02 1606188781
-AR contador_reloj behavioral E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd sub00/vhpl03 1606188782
-AR alarma behavioral E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd sub00/vhpl05 1606188780
+EN alarma_reloj NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma_Reloj.vhd sub00/vhpl08 1606270164
+EN alarma NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd sub00/vhpl04 1606263556
+EN contador_reloj NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd sub00/vhpl02 1606263937
+AR contador_reloj behavioral E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd sub00/vhpl03 1606263938
+AR alarma behavioral E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd sub00/vhpl05 1606263557
+EN alrm_reloj NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alrm_Reloj.vhd sub00/vhpl10 1606271891
 AR reloj behavioral E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Reloj.vhd sub00/vhpl01 1606111678
 AR esquema behavioral E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf sub00/vhpl07 1606188784
+AR alarma_reloj behavioral E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma_Reloj.vhd sub00/vhpl09 1606270165
+AR alrm_reloj behavioral E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alrm_Reloj.vhd sub00/vhpl11 1606271892
 EN esquema NULL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf sub00/vhpl06 1606188783

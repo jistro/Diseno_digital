@@ -1,0 +1,7 @@
+vhdtdtfi -lib work Alarma_Reloj.vhd -prj Proyecto2_parte3 -o Alarma_Reloj.spl -module Alarma_Reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Alarma_Reloj.vhd -prj Proyecto2_parte3 -o Alarma_reloj.spl -module Alarma_reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Alarma_reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma_reloj.sym 
+vhdtdtfi -lib work Alarma_Reloj.vhd -prj Proyecto2_parte3 -o Alarma_reloj.spl -module Alarma_reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Alarma_reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma_reloj.sym 
+vhdtdtfi -lib work Alarma_Reloj.vhd -prj Proyecto2_parte3 -o Alarma_reloj.spl -module Alarma_reloj -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Alarma_reloj.spl E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma_reloj.sym 

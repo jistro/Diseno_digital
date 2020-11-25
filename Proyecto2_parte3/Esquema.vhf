@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : Esquema.vhf
--- /___/   /\     Timestamp : 11/23/2020 21:04:48
+-- /___/   /\     Timestamp : 11/24/2020 20:39:51
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -26,30 +26,31 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity Esquema is
-   port ( AAMPM    : in    std_logic; 
-          RELOJ    : in    std_logic; 
-          XLXN_118 : in    std_logic_vector (3 downto 0); 
-          XLXN_119 : in    std_logic_vector (3 downto 0); 
-          XLXN_120 : in    std_logic_vector (3 downto 0); 
-          XLXN_121 : in    std_logic_vector (3 downto 0); 
-          Alarm    : out   std_logic; 
-          AM_PM    : out   std_logic; 
-          HD0      : out   std_logic; 
-          HD1      : out   std_logic; 
-          HD2      : out   std_logic; 
-          HD3      : out   std_logic; 
-          HU0      : out   std_logic; 
-          HU1      : out   std_logic; 
-          HU2      : out   std_logic; 
-          HU3      : out   std_logic; 
-          MD0      : out   std_logic; 
-          MD1      : out   std_logic; 
-          MD2      : out   std_logic; 
-          MD3      : out   std_logic; 
-          MU0      : out   std_logic; 
-          MU1      : out   std_logic; 
-          MU2      : out   std_logic; 
-          MU3      : out   std_logic);
+   port ( AlAmPm       : in    std_logic; 
+          AlReset      : in    std_logic; 
+          RELOJ        : in    std_logic; 
+          XLXN_201     : in    std_logic_vector (3 downto 0); 
+          XLXN_202     : in    std_logic_vector (3 downto 0); 
+          XLXN_203     : in    std_logic_vector (3 downto 0); 
+          XLXN_204     : in    std_logic_vector (3 downto 0); 
+          AmPm         : out   std_logic; 
+          HD0          : out   std_logic; 
+          HD1          : out   std_logic; 
+          HD2          : out   std_logic; 
+          HD3          : out   std_logic; 
+          HU0          : out   std_logic; 
+          HU1          : out   std_logic; 
+          HU2          : out   std_logic; 
+          HU3          : out   std_logic; 
+          MD0          : out   std_logic; 
+          MD1          : out   std_logic; 
+          MD2          : out   std_logic; 
+          MD3          : out   std_logic; 
+          MU0          : out   std_logic; 
+          MU1          : out   std_logic; 
+          MU2          : out   std_logic; 
+          MU3          : out   std_logic; 
+          SonidoAlarma : out   std_logic);
 end Esquema;
 
 architecture BEHAVIORAL of Esquema is
@@ -63,11 +64,14 @@ architecture BEHAVIORAL of Esquema is
    signal XLXN_58                         : std_logic;
    signal XLXN_59                         : std_logic;
    signal XLXN_68                         : std_logic;
-   signal AM_PM_DUMMY                     : std_logic;
+   signal XLXN_211                        : std_logic;
+   signal XLXN_212                        : std_logic;
+   signal XLXN_213                        : std_logic;
    signal HU0_DUMMY                       : std_logic;
    signal HU1_DUMMY                       : std_logic;
    signal HU2_DUMMY                       : std_logic;
    signal HU3_DUMMY                       : std_logic;
+   signal AmPm_DUMMY                      : std_logic;
    signal HD0_DUMMY                       : std_logic;
    signal HD1_DUMMY                       : std_logic;
    signal HD2_DUMMY                       : std_logic;
@@ -80,7 +84,6 @@ architecture BEHAVIORAL of Esquema is
    signal MD1_DUMMY                       : std_logic;
    signal MD2_DUMMY                       : std_logic;
    signal MD3_DUMMY                       : std_logic;
-   signal XLXI_17_reset_alarma_openSignal : std_logic;
    signal XLXI_18_areset_am_pm_openSignal : std_logic;
    signal XLXI_18_areset_hr_d_openSignal  : std_logic;
    signal XLXI_18_areset_min_u_openSignal : std_logic;
@@ -106,33 +109,6 @@ architecture BEHAVIORAL of Esquema is
              O  : out   std_logic);
    end component;
    attribute BOX_TYPE of AND2 : component is "BLACK_BOX";
-   
-   component alarma
-      port ( M_U_0        : in    std_logic; 
-             M_U_1        : in    std_logic; 
-             M_U_2        : in    std_logic; 
-             M_U_3        : in    std_logic; 
-             M_D_0        : in    std_logic; 
-             M_D_1        : in    std_logic; 
-             M_D_2        : in    std_logic; 
-             M_D_3        : in    std_logic; 
-             H_U_0        : in    std_logic; 
-             H_U_1        : in    std_logic; 
-             H_U_2        : in    std_logic; 
-             H_U_3        : in    std_logic; 
-             H_D_0        : in    std_logic; 
-             H_D_1        : in    std_logic; 
-             H_D_2        : in    std_logic; 
-             H_D_3        : in    std_logic; 
-             upd_am_pm    : in    std_logic; 
-             A_AM_PM      : in    std_logic; 
-             A_M_U        : in    std_logic_vector (3 downto 0); 
-             A_M_D        : in    std_logic_vector (3 downto 0); 
-             A_H_U        : in    std_logic_vector (3 downto 0); 
-             A_H_D        : in    std_logic_vector (3 downto 0); 
-             Senal_A      : out   std_logic; 
-             reset_alarma : in    std_logic);
-   end component;
    
    component Contador_reloj
       port ( clk_min_u    : in    std_logic; 
@@ -168,8 +144,45 @@ architecture BEHAVIORAL of Esquema is
              H_D_3        : out   std_logic);
    end component;
    
+   component Alrm_Reloj
+      port ( Rlj_Min_U_0 : in    std_logic; 
+             Rlj_Min_U_1 : in    std_logic; 
+             Rlj_Min_U_2 : in    std_logic; 
+             Rlj_Min_U_3 : in    std_logic; 
+             Rlj_Min_D_0 : in    std_logic; 
+             Rlj_Min_D_1 : in    std_logic; 
+             Rlj_Min_D_2 : in    std_logic; 
+             Rlj_Min_D_3 : in    std_logic; 
+             Rlj_Hr_U_0  : in    std_logic; 
+             Rlj_Hr_U_1  : in    std_logic; 
+             Rlj_Hr_U_2  : in    std_logic; 
+             Rlj_Hr_U_3  : in    std_logic; 
+             Rlj_Hr_D_0  : in    std_logic; 
+             Rlj_Hr_D_1  : in    std_logic; 
+             Rlj_Hr_D_2  : in    std_logic; 
+             Rlj_Hr_D_3  : in    std_logic; 
+             Rlj_Am_Pm   : in    std_logic; 
+             Alm_Am_Pm   : in    std_logic; 
+             Alm_Rst     : in    std_logic; 
+             Alm_Min_U   : in    std_logic_vector (3 downto 0); 
+             Alm_Min_D   : in    std_logic_vector (3 downto 0); 
+             Alm_Hr_U    : in    std_logic_vector (3 downto 0); 
+             Alm_Hr_D    : in    std_logic_vector (3 downto 0); 
+             Sen_1       : out   std_logic; 
+             Sen_2       : out   std_logic; 
+             Sen_3       : out   std_logic);
+   end component;
+   
+   component AND3
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND3 : component is "BLACK_BOX";
+   
 begin
-   AM_PM <= AM_PM_DUMMY;
+   AmPm <= AmPm_DUMMY;
    HD0 <= HD0_DUMMY;
    HD1 <= HD1_DUMMY;
    HD2 <= HD2_DUMMY;
@@ -215,32 +228,6 @@ begin
                 I1=>XLXN_58,
                 O=>XLXN_68);
    
-   XLXI_17 : alarma
-      port map (A_AM_PM=>AAMPM,
-                A_H_D(3 downto 0)=>XLXN_121(3 downto 0),
-                A_H_U(3 downto 0)=>XLXN_120(3 downto 0),
-                A_M_D(3 downto 0)=>XLXN_119(3 downto 0),
-                A_M_U(3 downto 0)=>XLXN_118(3 downto 0),
-                H_D_0=>HD0_DUMMY,
-                H_D_1=>HD1_DUMMY,
-                H_D_2=>HD2_DUMMY,
-                H_D_3=>HD3_DUMMY,
-                H_U_0=>HU0_DUMMY,
-                H_U_1=>HU1_DUMMY,
-                H_U_2=>HU2_DUMMY,
-                H_U_3=>HU3_DUMMY,
-                M_D_0=>MD0_DUMMY,
-                M_D_1=>MD1_DUMMY,
-                M_D_2=>MD2_DUMMY,
-                M_D_3=>MD3_DUMMY,
-                M_U_0=>MU0_DUMMY,
-                M_U_1=>MU1_DUMMY,
-                M_U_2=>MU2_DUMMY,
-                M_U_3=>MU3_DUMMY,
-                reset_alarma=>XLXI_17_reset_alarma_openSignal,
-                upd_am_pm=>AM_PM_DUMMY,
-                Senal_A=>Alarm);
-   
    XLXI_18 : Contador_reloj
       port map (areset_am_pm=>XLXI_18_areset_am_pm_openSignal,
                 areset_hr_d=>XLXI_18_areset_hr_d_openSignal,
@@ -269,10 +256,44 @@ begin
                 M_U_1=>MU1_DUMMY,
                 M_U_2=>MU2_DUMMY,
                 M_U_3=>MU3_DUMMY,
-                upd_am_pm=>AM_PM_DUMMY,
+                upd_am_pm=>AmPm_DUMMY,
                 upd_h_d=>XLXN_9,
                 upd_h_u=>XLXN_7,
                 upd_m_d=>XLXN_4);
+   
+   XLXI_29 : Alrm_Reloj
+      port map (Alm_Am_Pm=>AlAmPm,
+                Alm_Hr_D(3 downto 0)=>XLXN_204(3 downto 0),
+                Alm_Hr_U(3 downto 0)=>XLXN_203(3 downto 0),
+                Alm_Min_D(3 downto 0)=>XLXN_202(3 downto 0),
+                Alm_Min_U(3 downto 0)=>XLXN_201(3 downto 0),
+                Alm_Rst=>AlReset,
+                Rlj_Am_Pm=>AmPm_DUMMY,
+                Rlj_Hr_D_0=>HD0_DUMMY,
+                Rlj_Hr_D_1=>HD1_DUMMY,
+                Rlj_Hr_D_2=>HD2_DUMMY,
+                Rlj_Hr_D_3=>HD3_DUMMY,
+                Rlj_Hr_U_0=>HU0_DUMMY,
+                Rlj_Hr_U_1=>HU1_DUMMY,
+                Rlj_Hr_U_2=>HU2_DUMMY,
+                Rlj_Hr_U_3=>HU3_DUMMY,
+                Rlj_Min_D_0=>MD0_DUMMY,
+                Rlj_Min_D_1=>MD1_DUMMY,
+                Rlj_Min_D_2=>MD2_DUMMY,
+                Rlj_Min_D_3=>MD3_DUMMY,
+                Rlj_Min_U_0=>MU0_DUMMY,
+                Rlj_Min_U_1=>MU1_DUMMY,
+                Rlj_Min_U_2=>MU2_DUMMY,
+                Rlj_Min_U_3=>MU3_DUMMY,
+                Sen_1=>XLXN_212,
+                Sen_2=>XLXN_213,
+                Sen_3=>XLXN_211);
+   
+   XLXI_34 : AND3
+      port map (I0=>XLXN_213,
+                I1=>XLXN_212,
+                I2=>XLXN_211,
+                O=>SonidoAlarma);
    
 end BEHAVIORAL;
 

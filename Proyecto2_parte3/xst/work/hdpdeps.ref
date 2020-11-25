@@ -1,19 +1,33 @@
-V3 19
+V3 25
 FL C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd 2020/11/23.12:42:32 P.20131013
 FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd 2020/11/23.20:45:55 P.20131013
-EN work/alarma 1606188779 \
+EN work/alarma 1606263556 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/alarma/Behavioral 1606188780 \
+AR work/alarma/Behavioral 1606263557 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd \
-      EN work/alarma 1606188779
+      EN work/alarma 1606263556
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma_Reloj.vhd 2020/11/24.20:09:08 P.20131013
+EN work/Alarma_reloj 1606270164 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma_Reloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Alarma_reloj/Behavioral 1606270165 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma_Reloj.vhd \
+      EN work/Alarma_reloj 1606270164
+FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alrm_Reloj.vhd 2020/11/24.20:37:39 P.20131013
+EN work/Alrm_Reloj 1606271891 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alrm_Reloj.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Alrm_Reloj/Behavioral 1606271892 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alrm_Reloj.vhd \
+      EN work/Alrm_Reloj 1606271891
 FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd 2020/11/23.19:10:06 P.20131013
-EN work/Contador_reloj 1606188781 \
+EN work/Contador_reloj 1606263937 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Contador_reloj/Behavioral 1606188782 \
+AR work/Contador_reloj/Behavioral 1606263938 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd \
-      EN work/Contador_reloj 1606188781
+      EN work/Contador_reloj 1606263937
 FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf 2020/11/23.21:04:48 P.20131013
 EN work/Esquema 1606188783 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf \

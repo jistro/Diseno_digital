@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.43 secs
  
 --> Parameter xsthdpdir set to E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.43 secs
  
 --> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
 
@@ -18,16 +18,15 @@ Total CPU time to Xst completion: 0.12 secs
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alarma.vhd" in Library work.
-Entity <alarma> compiled.
-Entity <alarma> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity alarma is up to date.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 1.17 secs
  
 --> 
 
-Total memory usage is 202048 kilobytes
+Total memory usage is 202084 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

@@ -68,11 +68,9 @@
     </file>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="Esquema.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Esquema.xst"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Esquema_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Esquema_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Esquema_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Esquema_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Esquema_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Esquema_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Esquema_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Esquema_map.ncd" xil_pn:subbranch="Map"/>
@@ -91,6 +89,11 @@
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="Reloj.spl"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Reloj.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Reloj.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="RljC_Min_D_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RljC_Min_U_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="RljC_Min_U_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="RljC_Min_U_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RljC_Min_U_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
@@ -107,7 +110,6 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -119,56 +121,74 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606271861" xil_pn:in_ck="-3122892162464641357" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1606271861">
+    <transform xil_pn:end_ts="1606620182" xil_pn:in_ck="6952950985973174726" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1606620182">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Alarma.vhd"/>
       <outfile xil_pn:name="Alarma_Reloj.vhd"/>
       <outfile xil_pn:name="Alrm_Reloj.vhd"/>
       <outfile xil_pn:name="Contador_reloj.vhd"/>
+      <outfile xil_pn:name="RljC_Min_D.vhd"/>
+      <outfile xil_pn:name="RljC_Min_U.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1606271990" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3807885717486536830" xil_pn:start_ts="1606271990">
+    <transform xil_pn:end_ts="1606619976" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8983256198093383291" xil_pn:start_ts="1606619976">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606271992" xil_pn:in_ck="111180316041999869" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5887074564753378506" xil_pn:start_ts="1606271990">
+    <transform xil_pn:end_ts="1606619978" xil_pn:in_ck="111180316041999869" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6455996897581216317" xil_pn:start_ts="1606619976">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <outfile xil_pn:name="Esquema.vhf"/>
     </transform>
     <transform xil_pn:end_ts="1606141507" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="575967857158999632" xil_pn:start_ts="1606141507">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606271992" xil_pn:in_ck="-7417299347567928266" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1606271992">
+    <transform xil_pn:end_ts="1606620003" xil_pn:in_ck="2856553921347428809" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1606620003">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Alarma.vhd"/>
       <outfile xil_pn:name="Alarma_Reloj.vhd"/>
       <outfile xil_pn:name="Alrm_Reloj.vhd"/>
       <outfile xil_pn:name="Contador_reloj.vhd"/>
       <outfile xil_pn:name="Esquema.vhf"/>
+      <outfile xil_pn:name="RljC_Min_D.vhd"/>
+      <outfile xil_pn:name="RljC_Min_U.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1606271997" xil_pn:in_ck="-7417299347567928266" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7507187747129703170" xil_pn:start_ts="1606271992">
+    <transform xil_pn:end_ts="1606620010" xil_pn:in_ck="2856553921347428809" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="325814948360151834" xil_pn:start_ts="1606620003">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Esquema_beh.prj"/>
-      <outfile xil_pn:name="Esquema_isim_beh.exe"/>
+      <outfile xil_pn:name="RljC_Min_U_beh.prj"/>
+      <outfile xil_pn:name="RljC_Min_U_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1606271997" xil_pn:in_ck="-1741696632493083281" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2983489738455152241" xil_pn:start_ts="1606271997">
+    <transform xil_pn:end_ts="1606620010" xil_pn:in_ck="-5091135396211190976" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-274154341030495513" xil_pn:start_ts="1606620010">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Esquema_isim_beh.wdb"/>
+      <outfile xil_pn:name="RljC_Min_U_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1606184998" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1606184998">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -239,7 +259,9 @@
     <transform xil_pn:end_ts="1606188822" xil_pn:in_ck="111180316041994551" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-3472835891281577928" xil_pn:start_ts="1606188803">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="Esquema.bld"/>
       <outfile xil_pn:name="Esquema.ngd"/>
       <outfile xil_pn:name="Esquema_ngdbuild.xrpt"/>

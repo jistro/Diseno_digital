@@ -1,29 +1,19 @@
-Running: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_isim_beh.exe -prj E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_beh.prj work.Esquema 
+Running: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/RljC_Min_U_isim_beh.exe -prj E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/RljC_Min_U_beh.prj work.RljC_Min_U 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Contador_reloj.vhd" into library work
-Parsing VHDL file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Alrm_Reloj.vhd" into library work
-Parsing VHDL file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema.vhf" into library work
+Parsing VHDL file "E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/RljC_Min_U.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package numeric_std
-Compiling package vcomponents
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
-Compiling architecture inv_v of entity INV [inv_default]
-Compiling architecture and4_v of entity AND4 [and4_default]
-Compiling architecture and2_v of entity AND2 [and2_default]
-Compiling architecture behavioral of entity Contador_reloj [contador_reloj_default]
-Compiling architecture behavioral of entity Alrm_Reloj [alrm_reloj_default]
-Compiling architecture and3_v of entity AND3 [and3_default]
-Compiling architecture behavioral of entity esquema
+Compiling architecture behavioral of entity rljc_min_u
 Time Resolution for simulation is 1ps.
-Waiting for 4 sub-compilation(s) to finish...
-Compiled 19 VHDL Units
-Built simulation executable E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/Esquema_isim_beh.exe
-Fuse Memory Usage: 50164 KB
-Fuse CPU Usage: 859 ms
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable E:/Users/Usuario/GitHub/Diseno_digital/Proyecto2_parte3/RljC_Min_U_isim_beh.exe
+Fuse Memory Usage: 31988 KB
+Fuse CPU Usage: 765 ms

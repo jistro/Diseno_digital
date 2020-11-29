@@ -1,0 +1,28 @@
+Command line:
+   RljC_Min_U_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54810
+
+Sat Nov 28 21:20:12 2020
+
+
+ Elaboration Time: 0.15625 sec
+
+ Current Memory Usage: 361.918 Meg
+
+ Total Signals          : 12
+ Total Nets             : 19
+ Total Signal Drivers   : 8
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 7
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 397
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 519.213 Meg
+
+Sat Nov 28 21:22:07 2020
+

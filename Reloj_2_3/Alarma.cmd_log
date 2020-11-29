@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Alarma.vhd -prj Reloj_2_3 -o Alarma.spl -module Alarma -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Alarma.spl E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Alarma.sym 

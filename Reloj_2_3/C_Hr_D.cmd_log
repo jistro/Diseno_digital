@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C_Hr_D.vhd -prj Reloj_2_3 -o C_Hr_D.spl -module C_Hr_D -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 C_Hr_D.spl E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_D.sym 

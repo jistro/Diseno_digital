@@ -1,0 +1,10 @@
+[Inputs]
+A
+B
+C
+D
+S0
+S1
+[Outputs]
+Z
+[BiDir]

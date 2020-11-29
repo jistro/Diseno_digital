@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Esquematico_isim_beh.exe" -prj "E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Esquematico_beh.prj" "work.Esquematico" 

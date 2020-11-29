@@ -1,0 +1,28 @@
+Command line:
+   Esquematico_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55885
+
+Sat Nov 28 21:53:51 2020
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 361.972 Meg
+
+ Total Signals          : 65
+ Total Nets             : 58
+ Total Signal Drivers   : 14
+ Total Blocks           : 8
+ Total Primitive Blocks : 7
+ Total Processes        : 12
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 559
+
+ Total Simulation Time: 3.32813 sec
+
+ Current Memory Usage: 519.266 Meg
+
+Sat Nov 28 21:55:38 2020
+

@@ -1,0 +1,35 @@
+V3 16
+FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Alarma.vhd 2020/11/28.22:36:46 P.20131013
+EN work/Alarma 1606624616 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Alarma.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Alarma/Behavioral 1606624617 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Alarma.vhd \
+      EN work/Alarma 1606624616
+FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/AM_PM.vhd 2020/11/28.22:16:04 P.20131013
+EN work/AM_PM 1606623366 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/AM_PM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/AM_PM/Behavioral 1606623367 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/AM_PM.vhd EN work/AM_PM 1606623366
+FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_D.vhd 2020/11/28.22:03:39 P.20131013
+EN work/C_Hr_D 1606622679 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_D.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/C_Hr_D/Behavioral 1606622680 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_D.vhd \
+      EN work/C_Hr_D 1606622679
+FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_U.vhd 2020/11/28.21:58:23 P.20131013
+EN work/C_Hr_U 1606622686 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_U.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/C_Hr_U/Behavioral 1606622687 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_U.vhd \
+      EN work/C_Hr_U 1606622686
+FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor.vhd 2020/11/28.23:10:49 P.20131013
+EN work/Multiplexor 1606626680 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Multiplexor/bhv 1606626681 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor.vhd \
+      EN work/Multiplexor 1606626680

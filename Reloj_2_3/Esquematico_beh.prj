@@ -1,0 +1,3 @@
+vhdl work "C_Min_U.vhd"
+vhdl work "C_Min_D.vhd"
+vhdl work "Esquematico.vhf"

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work AM_PM.vhd -prj Reloj_2_3 -o AM_PM.spl -module AM_PM -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 AM_PM.spl E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/AM_PM.sym 
+vhdtdtfi -lib work AM_PM.vhd -prj Reloj_2_3 -o AM_PM.spl -module AM_PM -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 AM_PM.spl E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/AM_PM.sym 

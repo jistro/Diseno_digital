@@ -35,9 +35,6 @@
         <signal name="AmPm" />
         <signal name="AlReset" />
         <signal name="AlAmPm" />
-        <signal name="XLXN_186" />
-        <signal name="XLXN_193" />
-        <signal name="XLXN_194" />
         <signal name="XLXN_201(3:0)" />
         <signal name="XLXN_202(3:0)" />
         <signal name="XLXN_203(3:0)" />
@@ -476,9 +473,9 @@
         </branch>
         <iomarker fontsize="28" x="2464" y="1952" name="XLXN_203(3:0)" orien="R270" />
         <branch name="XLXN_204(3:0)">
-            <wire x2="2528" y1="1952" y2="1984" x1="2528" />
+            <wire x2="2528" y1="1872" y2="1968" x1="2528" />
+            <wire x2="2528" y1="1968" y2="1984" x1="2528" />
         </branch>
-        <iomarker fontsize="28" x="2528" y="1952" name="XLXN_204(3:0)" orien="R270" />
         <branch name="SonidoAlarma">
             <wire x2="560" y1="2544" y2="2544" x1="496" />
             <wire x2="576" y1="2544" y2="2544" x1="560" />
@@ -498,5 +495,6 @@
             <wire x2="2656" y1="2608" y2="2608" x1="1024" />
             <wire x2="2656" y1="2432" y2="2608" x1="2656" />
         </branch>
+        <iomarker fontsize="28" x="2528" y="1872" name="XLXN_204(3:0)" orien="R270" />
     </sheet>
 </drawing>

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Multiplexor.vhd -prj Reloj_2_3 -o Multiplexor.spl -module Multiplexor -template E:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Multiplexor.spl E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor.sym 

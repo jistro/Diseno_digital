@@ -8,19 +8,19 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Cont_Hrs_D.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/Cont_Hrs_D.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Cont_Hrs_U.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/Cont_Hrs_U.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Cont_Min_D.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/Cont_Min_D.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Cont_Min_U.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/Cont_Min_U.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kevin/Documents/GitHub/Diseno_digital/Proyecto_2_Parte_2/Contador_R.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Users/Usuario/GitHub/Diseno_digital/Proyecto_2_Parte_2/Contador_R.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

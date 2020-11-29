@@ -1,0 +1,9 @@
+[Inputs]
+clk
+areset
+aload
+data
+[Outputs]
+S
+UPD
+[BiDir]

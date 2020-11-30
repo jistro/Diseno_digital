@@ -1,0 +1,7 @@
+[Inputs]
+p0
+p1
+sel
+[Outputs]
+s
+[BiDir]

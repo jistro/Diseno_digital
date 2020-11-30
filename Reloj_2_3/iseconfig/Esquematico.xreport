@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-11-28T23:08:29</DateModified>
+  <DateModified>2020-11-29T21:54:50</DateModified>
   <ModuleName>Esquematico</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/iseconfig/Esquematico.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3\</ImplementationReportsDirectory>
   <DateInitialized>2020-11-28T21:49:22</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

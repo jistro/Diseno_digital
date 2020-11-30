@@ -48,7 +48,6 @@
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="C_Min_U.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="C_Min_U.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="Esquematico.vhf"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Esquematico_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Esquematico_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Esquematico_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexor.prj"/>
@@ -56,8 +55,11 @@
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Multiplexor.stx"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Multiplexor.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Multiplexor.xst"/>
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplexor_2_a_1.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Multiplexor_2_a_1.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Multiplexor_2_a_1.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Multiplexor_2_a_1.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Multiplexor_2_a_1.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -68,62 +70,54 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606622018" xil_pn:in_ck="-6159812158294540061" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1606622018">
+    <transform xil_pn:end_ts="1606708507" xil_pn:in_ck="-9032551705998749675" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1606708507">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="AM_PM.vhd"/>
+      <outfile xil_pn:name="Alarma.vhd"/>
+      <outfile xil_pn:name="C_Hr_D.vhd"/>
+      <outfile xil_pn:name="C_Hr_U.vhd"/>
       <outfile xil_pn:name="C_Min_D.vhd"/>
       <outfile xil_pn:name="C_Min_U.vhd"/>
+      <outfile xil_pn:name="Multiplexor.vhd"/>
+      <outfile xil_pn:name="Multiplexor_2_a_1.vhd"/>
     </transform>
     <transform xil_pn:end_ts="1606622018" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1611669321739180205" xil_pn:start_ts="1606622018">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606622020" xil_pn:in_ck="-6255055060961894964" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6109822710477831835" xil_pn:start_ts="1606622018">
+    <transform xil_pn:end_ts="1606708510" xil_pn:in_ck="-6255055060961894964" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6109822710477831835" xil_pn:start_ts="1606708507">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Esquematico.vhf"/>
     </transform>
     <transform xil_pn:end_ts="1606622020" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6337569863154951839" xil_pn:start_ts="1606622020">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1606622020" xil_pn:in_ck="-8326346493013474891" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1606622020">
+    <transform xil_pn:end_ts="1606708510" xil_pn:in_ck="-1002473187278373113" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1606708510">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="AM_PM.vhd"/>
+      <outfile xil_pn:name="Alarma.vhd"/>
+      <outfile xil_pn:name="C_Hr_D.vhd"/>
+      <outfile xil_pn:name="C_Hr_U.vhd"/>
       <outfile xil_pn:name="C_Min_D.vhd"/>
       <outfile xil_pn:name="C_Min_U.vhd"/>
       <outfile xil_pn:name="Esquematico.vhf"/>
+      <outfile xil_pn:name="Multiplexor.vhd"/>
+      <outfile xil_pn:name="Multiplexor_2_a_1.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1606622029" xil_pn:in_ck="-8326346493013474891" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4224259572580256224" xil_pn:start_ts="1606622020">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1606708587" xil_pn:in_ck="-1002473187278373113" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4224259572580256224" xil_pn:start_ts="1606708510">
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Esquematico_beh.prj"/>
-      <outfile xil_pn:name="Esquematico_isim_beh.exe"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
     <transform xil_pn:end_ts="1606622029" xil_pn:in_ck="-1902089782752180721" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6760786690476889229" xil_pn:start_ts="1606622029">
-      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutOfDateForced"/>
       <outfile xil_pn:name="Esquematico_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
     </transform>

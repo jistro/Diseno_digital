@@ -1,4 +1,4 @@
-V3 16
+V3 18
 FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Alarma.vhd 2020/11/28.22:36:46 P.20131013
 EN work/Alarma 1606624616 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Alarma.vhd \
@@ -33,3 +33,10 @@ EN work/Multiplexor 1606626680 \
 AR work/Multiplexor/bhv 1606626681 \
       FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor.vhd \
       EN work/Multiplexor 1606626680
+FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor_2_a_1.vhd 2020/11/29.21:47:21 P.20131013
+EN work/Multiplexor_2_a_1 1606708045 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor_2_a_1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Multiplexor_2_a_1/Behavioral 1606708046 \
+      FL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor_2_a_1.vhd \
+      EN work/Multiplexor_2_a_1 1606708045

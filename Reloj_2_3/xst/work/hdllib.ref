@@ -1,10 +1,12 @@
 EN alarma NULL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Alarma.vhd sub00/vhpl06 1606624616
 EN multiplexor NULL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor.vhd sub00/vhpl08 1606626680
+AR multiplexor_2_a_1 behavioral E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor_2_a_1.vhd sub00/vhpl11 1606708046
 AR am_pm behavioral E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/AM_PM.vhd sub00/vhpl05 1606623367
 AR alarma behavioral E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Alarma.vhd sub00/vhpl07 1606624617
 EN am_pm NULL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/AM_PM.vhd sub00/vhpl04 1606623366
 AR multiplexor bhv E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor.vhd sub00/vhpl09 1606626681
 EN c_hr_d NULL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_D.vhd sub00/vhpl00 1606622679
+EN multiplexor_2_a_1 NULL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/Multiplexor_2_a_1.vhd sub00/vhpl10 1606708045
 AR c_hr_u behavioral E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_U.vhd sub00/vhpl03 1606622687
 EN c_hr_u NULL E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_U.vhd sub00/vhpl02 1606622686
 AR c_hr_d behavioral E:/Users/Usuario/GitHub/Diseno_digital/Reloj_2_3/C_Hr_D.vhd sub00/vhpl01 1606622680
